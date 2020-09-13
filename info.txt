@@ -1,0 +1,75 @@
+"bullish_marubozu"            : "Buy = close , Stoploss = low" (Avoid trading on extremely small(1% of range) and extremely large candle (10% of range))
+"bearish_marubozu"            : "Sell = close, Stoploss = high" (Avoid trading on extremely small(1% of range) and extremely large candle (10% of range))
+"spinning_top_in_downtrend"   : "Spinning Top in Downtrend, Buy Half the Stocks" (candle color does not matter, No Buy and Stoploss Defined)
+"spinning_top_in_uptrend"     : "Spinning Top in Uptrend, Sell Half the Stocks" (candle color does not matter, No Buy and Stoploss Defined)
+"doji_in_uptrend"             : "Indecision is going in market, May move Downwards,  Sell Half the Stocks" (candle color does not matter, no real body at all, 
+                                just a wafer)
+"doji_in_downtrend"           : "Indecision is going in market, May move Upwards,  Buy Half the Stocks"  (candle color does not matter, no real body at all, 
+                                just a wafer)
+"hammer"                      : "Prior Trend = downtrend, Buy = close, Stoploss = low" (candle color does not matter, single candle pattern)
+"hangingman"                  : "Prior Trend = uptrend, Sell = close, Stoploss = high" (candle color does not matter, single candle pattern)
+"shooting_star"               : "Prior Trend = uptrend, Sell = close , Stoploss = high" (candle color does not matter, single candle pattern)
+"bullish_engulfing"           : "Prior Trend = downtrend, Buy = close, Stoploss = low(Day1 or Day2)" (2 candles pattern, Day 1 - Red Candle, Day 2 - Blue Engulfing
+                                Candle)
+"bearish_engulfing"           : "Prior Trend = uptrend, Sell = close, Stoploss = high(Day1 or Day2)" (2 candles pattern, Day 1 - Blue Candle, Day 2 - Red Engulfing
+                                Candle)
+"bearish engulfing_followed_by_doji" : Same as bearish_engulfing, But on Day 3 - Doji is formed. (whenever a doji follows a recognizable candlestick pattern,
+                                       the opportunity created is bigger)
+"piercing_pattern"            : "Prior Trend = downtrend, Buy = close, Stoploss = low(Day1 or Day2)", (2 candles pattern, Day 1 - Red Candle, Day 2 - Blue 
+                                Candle, Less stronger pattern than bullish_engulfing, except day 2's blue candle only covers more than 
+                                50% of day 1's red candle")
+"dark_cloud_cover"            : "Prior Trend = uptrend, Sell = close, Stoploss = high(Day1 or Day2)", (2 candles pattern, Day 1 - Blue Candle, Day 2 - Red 
+                                Candle, Less stronger pattern than bearish_engulfing, except day 2's blue candle only covers more than 
+                                50% of day 1's red candle")
+"bullish_harami"              : "Prior Trend = downtrend, Buy = close, Stoploss = low(Day1 or Day2)" (2 candles pattern, Day 1 - Red Candle, Day 2 - Blue Engulfing
+                                Candle)
+"bearish_harami"              : "Prior Trend = uptrend, Sell = close, Stoploss = high(Day1 or Day2)" (2 candles pattern, Day 1 - Blue Candle, Day 2 - Red Engulfing
+                                Candle)
+"morning_star"                : "Prior Trend = downtrend, Buy = close, Stoploss = low(Day1 or Day2 or Day3)" (3 candles pattern, Day 1 - Long Red Candle, Day 2 - Gap Down
+                                Opening with the day ends as a Doji Formation/Spinning Top, Day 3 - Gap Up Opening and Day3 close price > Day1 opening price
+"evening_star"                : "Prior Trend = uptrend, Sell = close, Stoploss = high(Day1 or Day2 or Day3)" (3 candles pattern, Day 1 - Long Blue Candle, Day 2 - Gap Up
+                                Opening with the day ends as a Doji Formation/Spinning Top, Day 3 - Gap Down Opening and Day3 close price < Day1 opening price
+
+Rules to dram S&R :
+    - Step 1 : Load Data
+        - Short Term : Load the data of atleast 3-6 months (is useful intraday and BTST trades)
+        - Long Term : Load the data of atleast 12-18 months (is useful for swing trading, from few days to weeks)
+    - Step 2 :  Identify at least 3 price action zones
+        - Hesitated to move up further after a brief up move
+        - Hesitated to move down further after a brief down move
+        - Sharp reversals at particular price point
+    - Step 3 : Align the price action zones
+        - identify at least 3 price action zones that are at the same price level. A very important point to note while identifying these price action zones is to make   sure these price zone are well spaced in time. Meaning, if the 1st price action zone is identified on 2nd week on May, then it will be meaningful to identify the 2nd price action zone at any point after 4th week of May (well spaced in time). The more distance between two price action zones, the more powerful is the S&R identification.
+    - Step 4 : Fit a horizantal line
+        - Please Note : The price level is usually depicted in a range and not at a single price point. It is actually a zone or an area that acts as support or resistance.
+
+    Ex. Assume the following credentials for the bullish marubuzo:
+        - Open = 432, High = 449, Low = 430, Close = 448
+        - Entry for the long trade is approximately at 448, with 430 as the stoploss.
+        - Now what if the low of the marubuzo also coincides with a good time tested support?
+            - We have a double confirmation to go long. Think about it on following terms:
+            - A recognized candlestick pattern (bullish marubuzo) suggests the trader to initiate a long trade
+            - A support near the stoploss price suggests the trader the presence of significant buying interest around the low
+
+        - Conclusion :
+            - For a long trade, the low of the pattern should be around the support
+            - For a short trade, the high of the pattern should be around the resistance
+
+CrossOver System:
+    - 9 day EMA with 21 day EMA – use this for short term trades ( upto few trading session)
+    - 25 day EMA with 50 day EMA – use this to identify medium term trade (upto few weeks)
+    - 50 day EMA with 100 Day EMA – use this to identify trades that lasts upto few months
+    - 100 day EMA with 200 day EMA – use this to identify long term trades (investment opportunities), some of them can even last for over a year or more.
+
+Indicators:
+    RSI:
+        - 0 <= RSI <= 30, Oversold. Ex. bullish engulfing pattern, volumes and S&R and RSI=26.8 (You have one more Indicators in your favor to go long)
+        - If the RSI is fixed in an overbought region for a prolonged period, look for buying opportunities instead of shorting. The RSI stays in the overbought region for a prolonged period because of an excess positive momentum
+        - If the RSI is fixed in an oversold region for a prolonged period, look for selling opportunities rather than buying. RSI stays in the oversold region for a prolonged period because of an excess negative momentum.
+        - If the RSI value starts moving away from the oversold value after a prolonged period, look for buying opportunities. For example, the RSI moves above 30 after a long time may mean that the stock may have bottomed out, hence a case of going long.
+        - If the RSI value starts moving away from the overbought value after a prolonged period, look for selling opportunities. For example, RSI moving below 70 after a long time. This means the stock may have topped out, hence a case for shorting
+
+    MACD:
+        - The sign associated with the MACD just indicates the direction of the stock’s move.
+        - (+) - uptrend, (-) - downtrend
+        - The difference between the two moving averages is called the MACD spread. The spread decreases when the momentum mellows down and increases when the momentum increases. To visualize convergence and the divergence traders usually plot the chart of the MACD value, often referred to as the MACD line.

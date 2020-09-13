@@ -4,12 +4,14 @@ import pandas as pd
 from collections import OrderedDict
 import talib
 import pprint
+import trendln
+import matplotlib.pyplot as plt
 
 # Select the time-period
 start = dt.datetime(2015, 1, 1)
 end = dt.datetime.now()
 
-stocks_list = []
+stocks_list = set()
 with open("stocks_universe.txt", "r") as f:
     data = f.readlines()
 
@@ -17,11 +19,12 @@ with open("stocks_universe.txt", "r") as f:
 for stock in data:
     stock = stock.strip()
     if stock:
-        stocks_list.append(stock.strip())
+        stocks_list.add(stock.strip())
+stocks_list = list(stocks_list)
 
 # Read the stock quotes
 failed_to_read = []
-# stocks_list = ['INFY.NS', 'HAVELLS.NS']
+stocks_list = ['INOXLEISUR.NS', 'TCS.NS']
 candles_dict = {
     "CDLCLOSINGMARUBOZU" : talib.CDLCLOSINGMARUBOZU,
     "CDLKICKINGBYLENGTH" : talib.CDLKICKINGBYLENGTH,
@@ -33,14 +36,16 @@ candles_dict = {
     "CDLENGULFING" : talib.CDLENGULFING,
     "CDLHARAMI" : talib.CDLHARAMI,
     "CDLPIERCING" : talib.CDLPIERCING,
-
+    "CDL3INSIDE" : talib.CDL3INSIDE,
+    "CDL3WHITESOLDIERS" : talib.CDL3WHITESOLDIERS,
+    "CDLINVERTEDHAMMER" : talib.CDLINVERTEDHAMMER,
 }
 
 candles_dict_exceptions = {
     # these 2 needs other components as penetration=0
     "CDLMORNINGSTAR" : talib.CDLMORNINGSTAR,
-    "CDLEVENINGSTAR" : talib.CDLEVENINGSTAR,
-    "CDLDARKCLOUDCOVER" : talib.CDLDARKCLOUDCOVER,
+    # "CDLEVENINGSTAR" : talib.CDLEVENINGSTAR,
+    # "CDLDARKCLOUDCOVER" : talib.CDLDARKCLOUDCOVER,
 }
 
 stock_analysis = OrderedDict()
@@ -70,7 +75,7 @@ for stock in stocks_list:
 
         ### Volume Indicators
         sma_vol_10_avg = talib.SMA(volume[:-1], timeperiod=10).iloc[-1]
-        stock_analysis[stock]['VOLUME']['SMA_SIGNAL'] = volume.iloc[-1] > sma_vol_10_avg
+        stock_analysis[stock]['VOLUME']['SMA_SIGNAL'] = volume.iloc[-1] > sma_vol_10_avg and close.iloc[-1] > close.iloc[-2]
         # stock_analysis[stock]['VOLUME']['ADOSC'] = talib.ADOSC(high, low, close, volume, fastperiod=3, slowperiod=10).iloc[-1]
         stock_analysis[stock]['INDICATORS']['RSI'] = talib.RSI(close, timeperiod=14).iloc[-1]
         macd, macdsignal, macdhist = talib.MACD(close, fastperiod=12, slowperiod=26, signalperiod=9)
