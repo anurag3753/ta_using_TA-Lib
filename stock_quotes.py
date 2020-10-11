@@ -58,18 +58,18 @@ for stock in stocks_list:
         close = df['Close']
         volume = df['Volume']
         stock_analysis[stock] = OrderedDict()
-        stock_analysis[stock]['CMP'] =  close.iloc[-1]
+        stock_analysis[stock]['CMP'] =  round(close.iloc[-1], 2)
         stock_analysis[stock]['CANDLES'] = OrderedDict()
         stock_analysis[stock]['INDICATORS'] = OrderedDict()
         stock_analysis[stock]['VOLUME'] = OrderedDict()
         # Run Various Candles
         for candle, candle_fun in candles_dict.items():
-            val = candle_fun(open, high, low, close).iloc[-1]
+            val = round(candle_fun(open, high, low, close).iloc[-1], 2)
             if val:
                 stock_analysis[stock]['CANDLES'][candle] = val
         # Morning Star and Evening Star Candles
         for candle, candle_fun in candles_dict_exceptions.items():
-            val = candle_fun(open, high, low, close, penetration=0).iloc[-1]
+            val = round(candle_fun(open, high, low, close, penetration=0).iloc[-1], 2)
             if val:
                 stock_analysis[stock]['CANDLES'][candle] = val
 
@@ -77,14 +77,14 @@ for stock in stocks_list:
         sma_vol_10_avg = talib.SMA(volume[:-1], timeperiod=10).iloc[-1]
         stock_analysis[stock]['VOLUME']['SMA_SIGNAL'] = volume.iloc[-1] > sma_vol_10_avg and close.iloc[-1] > close.iloc[-2]
         # stock_analysis[stock]['VOLUME']['ADOSC'] = talib.ADOSC(high, low, close, volume, fastperiod=3, slowperiod=10).iloc[-1]
-        stock_analysis[stock]['INDICATORS']['RSI'] = talib.RSI(close, timeperiod=14).iloc[-1]
+        stock_analysis[stock]['INDICATORS']['RSI'] = round(talib.RSI(close, timeperiod=14).iloc[-1], 2)
         macd, macdsignal, macdhist = talib.MACD(close, fastperiod=12, slowperiod=26, signalperiod=9)
-        stock_analysis[stock]['INDICATORS']['MACD'] = macdsignal.iloc[-1]
+        stock_analysis[stock]['INDICATORS']['MACD'] = round(macdsignal.iloc[-1], 2)
         upper, middle, lower = talib.BBANDS(close, timeperiod=20, nbdevup=2, nbdevdn=2, matype=0)
         stock_analysis[stock]['INDICATORS']['BBANDS'] = {
-            'upper' : upper.iloc[-1],
-            'middle': middle.iloc[-1],
-            'lower' : lower.iloc[-1]
+            'upper' : round(upper.iloc[-1], 2),
+            'middle': round(middle.iloc[-1], 2),
+            'lower' : round(lower.iloc[-1], 2),
         }
          
 
