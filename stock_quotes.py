@@ -24,7 +24,7 @@ stocks_list = list(stocks_list)
 
 # Read the stock quotes
 failed_to_read = []
-stocks_list = ['INOXLEISUR.NS', 'TCS.NS']
+# stocks_list = ['INOXLEISUR.NS', 'TCS.NS']
 candles_dict = {
     "CDLCLOSINGMARUBOZU" : talib.CDLCLOSINGMARUBOZU,
     "CDLKICKINGBYLENGTH" : talib.CDLKICKINGBYLENGTH,
