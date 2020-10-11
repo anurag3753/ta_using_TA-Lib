@@ -44,8 +44,8 @@ candles_dict = {
 candles_dict_exceptions = {
     # these 2 needs other components as penetration=0
     "CDLMORNINGSTAR" : talib.CDLMORNINGSTAR,
-    # "CDLEVENINGSTAR" : talib.CDLEVENINGSTAR,
-    # "CDLDARKCLOUDCOVER" : talib.CDLDARKCLOUDCOVER,
+    "CDLEVENINGSTAR" : talib.CDLEVENINGSTAR,
+    "CDLDARKCLOUDCOVER" : talib.CDLDARKCLOUDCOVER,
 }
 
 stock_analysis = OrderedDict()
