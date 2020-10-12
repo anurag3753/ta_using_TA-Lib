@@ -12,6 +12,7 @@ recipients_email_id = [
     "modi.anurag1992@gmail.com",
     "poojamangal.imtn@gmail.com",
     "pankajagarwal881983@gmail.com",
+    "agrawaldrnitin@gmail.com",
 ]
 date    = datetime.datetime.now().strftime("%d-%m-%Y")
 subject = f"picks_of_the_day :- {date}"
