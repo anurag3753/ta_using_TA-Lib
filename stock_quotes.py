@@ -24,7 +24,7 @@ stocks_list = list(stocks_list)
 
 # Read the stock quotes
 failed_to_read = []
-# stocks_list = ['INOXLEISUR.NS', 'TCS.NS']
+#stocks_list = ['INOXLEISUR.NS', 'TCS.NS']
 candles_dict = {
     "CDLCLOSINGMARUBOZU" : talib.CDLCLOSINGMARUBOZU,
     "CDLKICKINGBYLENGTH" : talib.CDLKICKINGBYLENGTH,
@@ -57,11 +57,14 @@ for stock in stocks_list:
         low = df['Low']
         close = df['Close']
         volume = df['Volume']
+        cur_mkt_price = round(close.iloc[-1], 2)
         stock_analysis[stock] = OrderedDict()
-        stock_analysis[stock]['CMP'] =  round(close.iloc[-1], 2)
+        stock_analysis[stock]['CMP'] =  cur_mkt_price
         stock_analysis[stock]['CANDLES'] = OrderedDict()
         stock_analysis[stock]['INDICATORS'] = OrderedDict()
         stock_analysis[stock]['VOLUME'] = OrderedDict()
+        stock_analysis[stock]['50_SMA_SIGNAL'] = OrderedDict()
+        stock_analysis[stock]['BB_DIFF'] = OrderedDict()
         # Run Various Candles
         for candle, candle_fun in candles_dict.items():
             val = round(candle_fun(open, high, low, close).iloc[-1], 2)
@@ -76,6 +79,11 @@ for stock in stocks_list:
         ### Volume Indicators
         sma_vol_10_avg = talib.SMA(volume[:-1], timeperiod=10).iloc[-1]
         stock_analysis[stock]['VOLUME']['SMA_SIGNAL'] = volume.iloc[-1] > sma_vol_10_avg and close.iloc[-1] > close.iloc[-2]
+        ### Suggestion of 50 days SMA to be check against current price for swing trading :- Kunal Saraogi
+        sma_price_50_avg = talib.SMA(close[:-1], timeperiod=50).iloc[-1]
+        # if the diff b/w 50_days_sma and current_price is more than 20%
+        stock_analysis[stock]['50_SMA_SIGNAL'] = abs(cur_mkt_price -
+                                                              sma_price_50_avg)/cur_mkt_price > 0.1
         # stock_analysis[stock]['VOLUME']['ADOSC'] = talib.ADOSC(high, low, close, volume, fastperiod=3, slowperiod=10).iloc[-1]
         stock_analysis[stock]['INDICATORS']['RSI'] = round(talib.RSI(close, timeperiod=14).iloc[-1], 2)
         macd, macdsignal, macdhist = talib.MACD(close, fastperiod=12, slowperiod=26, signalperiod=9)
@@ -86,11 +94,13 @@ for stock in stocks_list:
             'middle': round(middle.iloc[-1], 2),
             'lower' : round(lower.iloc[-1], 2),
         }
-         
+        bb_low = stock_analysis[stock]['INDICATORS']['BBANDS']['lower']
+        stock_analysis[stock]['BB_DIFF'] = abs(bb_low - cur_mkt_price)/bb_low < 0.02
 
         # print(stock, ":", str(df.tail(1)))
     except Exception as e:
         failed_to_read.append(stock)
+        print(e)
         pass
 print("Failed : ", str(failed_to_read))
 
