@@ -10,7 +10,6 @@ sender_email_id = "modi.anurag1992@gmail.com"
 sender_email_pwd = "Sainik@3755"
 recipients_email_id = [
     "modi.anurag1992@gmail.com",
-    "poojamangal.imtn@gmail.com",
     "agrawaldrnitin@gmail.com",
 ]
 date    = datetime.datetime.now().strftime("%d-%m-%Y")
