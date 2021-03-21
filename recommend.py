@@ -8,11 +8,11 @@ import trendln
 import matplotlib.pyplot as plt
 
 # Select the time-period
-start = dt.datetime(2015, 1, 1)
+start = dt.datetime(2019, 1, 1)
 end = dt.datetime.now()
 
 stocks_list = set()
-with open("stocks_universe.txt", "r") as f:
+with open("universe.txt", "r") as f:
     data = f.readlines()
 
 # Stocks of interest
@@ -64,7 +64,6 @@ for stock in stocks_list:
         stock_analysis[stock]['INDICATORS'] = OrderedDict()
         stock_analysis[stock]['VOLUME'] = OrderedDict()
         stock_analysis[stock]['50_SMA_SIGNAL'] = OrderedDict()
-        stock_analysis[stock]['BB_DIFF'] = OrderedDict()
         # Run Various Candles
         for candle, candle_fun in candles_dict.items():
             val = round(candle_fun(open, high, low, close).iloc[-1], 2)
@@ -88,18 +87,24 @@ for stock in stocks_list:
         # if the diff b/w 50_days_sma and current_price is more than 20%
         stock_analysis[stock]['50_SMA_SIGNAL'] = abs(cur_mkt_price -
                                                               sma_price_50_avg)/cur_mkt_price > 0.1
-        # stock_analysis[stock]['VOLUME']['ADOSC'] = talib.ADOSC(high, low, close, volume, fastperiod=3, slowperiod=10).iloc[-1]
+        # ADX, +DI, -DI
+        adx = round(talib.ADX(high, low, close, timeperiod=14).iloc[-1], 2)
+        minus_di = round(talib.MINUS_DI(high, low, close, timeperiod=14).iloc[-1], 2)
+        plus_di = round(talib.PLUS_DI(high, low, close, timeperiod=14).iloc[-1], 2)
+        stock_analysis[stock]['INDICATORS']['ADX_SYSTEM'] = adx > 25 and plus_di > minus_di
+        # Aroon Oscillator
+        stock_analysis[stock]['INDICATORS']['AROON'] = round(talib.AROONOSC(high, low).iloc[-1], 2) > 50
+
         stock_analysis[stock]['INDICATORS']['RSI'] = round(talib.RSI(close, timeperiod=14).iloc[-1], 2)
         macd, macdsignal, macdhist = talib.MACD(close, fastperiod=12, slowperiod=26, signalperiod=9)
-        stock_analysis[stock]['INDICATORS']['MACD'] = round(macdsignal.iloc[-1], 2)
+        stock_analysis[stock]['INDICATORS']['MACD'] = round(macdsignal.iloc[-1], 2) > 0
         upper, middle, lower = talib.BBANDS(close, timeperiod=20, nbdevup=2, nbdevdn=2, matype=0)
-        stock_analysis[stock]['INDICATORS']['BBANDS'] = {
+        bbands = {
             'upper' : round(upper.iloc[-1], 2),
             'middle': round(middle.iloc[-1], 2),
             'lower' : round(lower.iloc[-1], 2),
         }
-        bb_low = stock_analysis[stock]['INDICATORS']['BBANDS']['lower']
-        stock_analysis[stock]['BB_DIFF'] = abs(bb_low - cur_mkt_price)/bb_low < 0.02
+        stock_analysis[stock]['INDICATORS']['BBANDS'] = abs(bbands['lower'] - cur_mkt_price)/bbands['lower'] < 0.02
 
         # print(stock, ":", str(df.tail(1)))
     except Exception as e:
