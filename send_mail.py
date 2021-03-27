@@ -16,7 +16,7 @@ recipients_email_id = [
 date    = datetime.datetime.now().strftime("%d-%m-%Y")
 subject = f"picks_of_the_day :- {date}"
 message = "Analyze_before_investing"
-attachment_path = "/home/anurag/ta_using_TA-Lib/stocks_analyze.txt"
+attachment_path = "stocks_analyze.txt"
 
 def sendEmail(sender_email_id, pwd, recipsEmailID, subject, message, attachment_path):
     msg = MIMEMultipart()
