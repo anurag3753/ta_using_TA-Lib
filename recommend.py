@@ -4,7 +4,6 @@ import pandas as pd
 from collections import OrderedDict
 import talib
 import pprint
-import trendln
 import matplotlib.pyplot as plt
 
 # Select the time-period
