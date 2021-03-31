@@ -79,7 +79,7 @@ for stock in stocks_list:
         good_vol = volume.iloc[-1] > (sma_vol_10_avg * 1.3)
         vol_long = good_vol and close.iloc[-1] > close.iloc[-2]
         vol_short = good_vol and close.iloc[-1] < close.iloc[-2]
-        stock_analysis[stock]['VOLUME']['SMA_SIGNAL'] = good_vol and vol_long
+        stock_analysis[stock]['VOLUME']['SMA_SIGNAL'] = good_vol and (vol_long or vol_short)
         #stock_analysis[stock]['VOLUME']['SMA_SIGNAL'] = volume.iloc[-1] > sma_vol_10_avg and close.iloc[-1] > close.iloc[-2]
         ### Suggestion of 50 days SMA to be check against current price for swing trading :- Kunal Saraogi
         sma_price_50_avg = talib.SMA(close[:-1], timeperiod=50).iloc[-1]
