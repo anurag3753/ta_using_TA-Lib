@@ -1,629 +1,66 @@
+'Date'
 inputs are all NaN
-Failed :  ['EPL.NS']
-**************************************************************
-stock is :  CHALET.NS
-OrderedDict([   ('CMP', 152.15),
-                (   'CANDLES',
-                    OrderedDict([   ('CDLCLOSINGMARUBOZU', 100),
-                                    ('CDLMARUBOZU', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 38.63),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', True)])
-**************************************************************
-stock is :  ADANITRANS.NS
-OrderedDict([   ('CMP', 1114.65),
-                (   'CANDLES',
-                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', True),
-                                    ('AROON', True),
-                                    ('RSI', 83.31),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', True)])
-**************************************************************
-stock is :  DCBBANK.NS
-OrderedDict([   ('CMP', 99.7),
-                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', -100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 34.17),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', True)])
-**************************************************************
-stock is :  TVSMOTOR.NS
-OrderedDict([   ('CMP', 569.0),
-                (   'CANDLES',
-                    OrderedDict([   ('CDLCLOSINGMARUBOZU', -100),
-                                    ('CDLMARUBOZU', -100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 42.99),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  CSBBANK.NS
-OrderedDict([   ('CMP', 242.85),
-                (   'CANDLES',
-                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 52.41),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  KPITTECH.NS
-OrderedDict([   ('CMP', 173.25),
-                ('CANDLES', OrderedDict([('CDLENGULFING', -100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', True),
-                                    ('AROON', False),
-                                    ('RSI', 64.56),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', True)])
-**************************************************************
-stock is :  BEML.NS
-OrderedDict([   ('CMP', 1263.85),
-                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', True),
-                                    ('AROON', False),
-                                    ('RSI', 51.65),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', True)])
-**************************************************************
-stock is :  KOTAKBANK.NS
-OrderedDict([   ('CMP', 1767.7),
-                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 39.96),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  AUROPHARMA.NS
-OrderedDict([   ('CMP', 893.0),
-                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', True),
-                                    ('RSI', 59.15),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  BEL.NS
-OrderedDict([   ('CMP', 129.8),
-                ('CANDLES', OrderedDict([('CDLDARKCLOUDCOVER', -100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 47.31),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  LT.NS
-OrderedDict([   ('CMP', 1399.85),
-                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', -100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 43.07),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  ALKEM.NS
-OrderedDict([   ('CMP', 2713.0),
-                (   'CANDLES',
-                    OrderedDict([   ('CDLSPINNINGTOP', -100),
-                                    ('CDLDOJI', 100),
-                                    ('CDLHARAMI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 47.94),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  AVANTIFEED.NS
-OrderedDict([   ('CMP', 450.2),
-                (   'CANDLES',
-                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 45.78),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  SBIN.NS
-OrderedDict([   ('CMP', 350.1),
-                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', -100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 39.15),
-                                    ('MACD', False),
-                                    ('BBANDS', True)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  BSOFT.NS
-OrderedDict([   ('CMP', 271.2),
-                (   'CANDLES',
-                    OrderedDict([('CDLSPINNINGTOP', -100), ('CDLDOJI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', True),
-                                    ('RSI', 68.74),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  SYNGENE.NS
-OrderedDict([   ('CMP', 559.05),
-                (   'CANDLES',
-                    OrderedDict([   ('CDLCLOSINGMARUBOZU', -100),
-                                    ('CDLMARUBOZU', -100),
-                                    ('CDLENGULFING', -100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', True),
-                                    ('AROON', True),
-                                    ('RSI', 57.06),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  BALKRISIND.NS
-OrderedDict([   ('CMP', 1662.0),
-                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', True),
-                                    ('RSI', 54.9),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  APOLLOTYRE.NS
-OrderedDict([   ('CMP', 223.0),
-                (   'CANDLES',
-                    OrderedDict([   ('CDLSPINNINGTOP', -100),
-                                    ('CDLDOJI', 100),
-                                    ('CDLHARAMI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 46.62),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  HDFC.NS
-OrderedDict([   ('CMP', 2468.35),
-                (   'CANDLES',
-                    OrderedDict([   ('CDLSPINNINGTOP', -100),
-                                    ('CDLDOJI', 100),
-                                    ('CDLHARAMI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 43.16),
-                                    ('MACD', False),
-                                    ('BBANDS', True)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  SUNPHARMA.NS
-OrderedDict([   ('CMP', 620.9),
-                (   'CANDLES',
-                    OrderedDict([   ('CDLCLOSINGMARUBOZU', 100),
-                                    ('CDLENGULFING', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', True),
-                                    ('RSI', 59.23),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  BHARTIARTL.NS
-OrderedDict([   ('CMP', 531.6),
-                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 48.6),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  MARICO.NS
-OrderedDict([   ('CMP', 402.9),
-                (   'CANDLES',
-                    OrderedDict([   ('CDLSPINNINGTOP', 100),
-                                    ('CDLDOJI', 100),
-                                    ('CDLHARAMI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', True),
-                                    ('RSI', 49.49),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  BAYERCROP.NS
-OrderedDict([   ('CMP', 5263.85),
-                (   'CANDLES',
-                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 55.75),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  WIPRO.NS
-OrderedDict([   ('CMP', 426.8),
-                ('CANDLES', OrderedDict([('CDLHANGINGMAN', -100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 55.18),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  IRB.NS
-OrderedDict([   ('CMP', 109.05),
-                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 47.63),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
+Failed :  ['BAJAJ-AUTO.NS', 'DHANI.NS']
 **************************************************************
 stock is :  BALAMINES.NS
-OrderedDict([   ('CMP', 1796.9),
+OrderedDict([   ('CMP', 1797.6),
                 (   'CANDLES',
                     OrderedDict([('CDLSPINNINGTOP', 100), ('CDLHARAMI', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('ADX_SYSTEM', True),
                                     ('AROON', True),
-                                    ('RSI', 60.0),
+                                    ('RSI', 60.05),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('50_SMA_SIGNAL', True)])
 **************************************************************
-stock is :  DLF.NS
-OrderedDict([   ('CMP', 278.0),
-                (   'CANDLES',
-                    OrderedDict([   ('CDLSPINNINGTOP', -100),
-                                    ('CDLHARAMI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 40.59),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  TATAMETALI.NS
-OrderedDict([   ('CMP', 849.6),
-                (   'CANDLES',
-                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 66.09),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  GSPL.NS
-OrderedDict([   ('CMP', 267.0),
-                (   'CANDLES',
-                    OrderedDict([   ('CDLDOJI', 100),
-                                    ('CDLINVERTEDHAMMER', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', True),
-                                    ('AROON', False),
-                                    ('RSI', 53.25),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  MOIL.NS
-OrderedDict([   ('CMP', 150.7),
-                (   'CANDLES',
-                    OrderedDict([   ('CDLSPINNINGTOP', -100),
-                                    ('CDLDOJI', 100),
-                                    ('CDLHARAMI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 51.29),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  POLYCAB.NS
-OrderedDict([   ('CMP', 1380.15),
-                (   'CANDLES',
-                    OrderedDict([   ('CDLSPINNINGTOP', -100),
-                                    ('CDLDOJI', 100),
-                                    ('CDLHARAMI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 57.41),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  RELAXO.NS
-OrderedDict([   ('CMP', 947.95),
-                ('CANDLES', OrderedDict([('CDLENGULFING', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', True),
-                                    ('AROON', True),
-                                    ('RSI', 72.95),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  ITI.NS
-OrderedDict([   ('CMP', 115.0),
-                (   'CANDLES',
-                    OrderedDict([   ('CDLSPINNINGTOP', -100),
-                                    ('CDLDOJI', 100),
-                                    ('CDLHARAMI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 37.31),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  ASTRAL.NS
-OrderedDict([   ('CMP', 1556.9),
-                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', -100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 43.56),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  GUJALKALI.NS
-OrderedDict([   ('CMP', 341.95),
-                (   'CANDLES',
-                    OrderedDict([   ('CDLSPINNINGTOP', -100),
-                                    ('CDLHARAMI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 50.23),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  PIIND.NS
-OrderedDict([   ('CMP', 2300.55),
-                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 56.19),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  NCC.NS
-OrderedDict([   ('CMP', 78.55),
-                (   'CANDLES',
-                    OrderedDict([   ('CDLSPINNINGTOP', -100),
-                                    ('CDLDOJI', 100),
-                                    ('CDLHARAMI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 44.33),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  SRTRANSFIN.NS
-OrderedDict([   ('CMP', 1435.6),
-                (   'CANDLES',
-                    OrderedDict([   ('CDLSPINNINGTOP', 100),
-                                    ('CDLDOJI', 100),
-                                    ('CDLHARAMI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', True),
-                                    ('RSI', 58.01),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  TATAELXSI.NS
-OrderedDict([   ('CMP', 2875.65),
-                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', -100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 63.2),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  TITAN.NS
-OrderedDict([   ('CMP', 1524.4),
-                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', -100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', True),
-                                    ('RSI', 55.79),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  HAL.NS
-OrderedDict([   ('CMP', 1001.0),
+stock is :  BERGEPAINT.NS
+OrderedDict([   ('CMP', 748.5),
                 ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('ADX_SYSTEM', False),
                                     ('AROON', False),
-                                    ('RSI', 45.31),
+                                    ('RSI', 53.59),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  KALPATPOWR.NS
+OrderedDict([   ('CMP', 378.65),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLSPINNINGTOP', -100),
+                                    ('CDLDOJI', 100),
+                                    ('CDLHANGINGMAN', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 49.99),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  KOTAKBANK.NS
+OrderedDict([   ('CMP', 1768.3),
+                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 40.05),
                                     ('MACD', False),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('50_SMA_SIGNAL', False)])
 **************************************************************
 stock is :  TCS.NS
-OrderedDict([   ('CMP', 3264.1),
+OrderedDict([   ('CMP', 3264.7),
                 ('CANDLES', OrderedDict([('CDLHANGINGMAN', -100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('ADX_SYSTEM', False),
                                     ('AROON', True),
-                                    ('RSI', 65.67),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  UBL.NS
-OrderedDict([   ('CMP', 1108.5),
-                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', -100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 32.79),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', True)])
-**************************************************************
-stock is :  RADICO.NS
-OrderedDict([   ('CMP', 550.2),
-                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', True),
-                                    ('AROON', False),
-                                    ('RSI', 48.04),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  EIHOTEL.NS
-OrderedDict([   ('CMP', 91.7),
-                (   'CANDLES',
-                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 34.42),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  HEROMOTOCO.NS
-OrderedDict([   ('CMP', 2886.95),
-                (   'CANDLES',
-                    OrderedDict([   ('CDLSPINNINGTOP', -100),
-                                    ('CDLHARAMI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 28.28),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', True)])
-**************************************************************
-stock is :  SOLARA.NS
-OrderedDict([   ('CMP', 1315.45),
-                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', -100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 49.23),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  BERGEPAINT.NS
-OrderedDict([   ('CMP', 749.8),
-                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 54.04),
+                                    ('RSI', 65.71),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
@@ -644,178 +81,822 @@ OrderedDict([   ('CMP', 76.85),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('50_SMA_SIGNAL', False)])
 **************************************************************
-stock is :  CROMPTON.NS
-OrderedDict([   ('CMP', 377.85),
-                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
+stock is :  BALKRISIND.NS
+OrderedDict([   ('CMP', 1663.55),
+                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 44.08),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  AMARAJABAT.NS
-OrderedDict([   ('CMP', 846.2),
-                (   'CANDLES',
-                    OrderedDict([('CDLSPINNINGTOP', -100), ('CDLDOJI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 37.45),
-                                    ('MACD', False),
-                                    ('BBANDS', True)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  EIDPARRY.NS
-OrderedDict([   ('CMP', 317.95),
-                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 39.1),
-                                    ('MACD', False),
+                                    ('AROON', True),
+                                    ('RSI', 55.15),
+                                    ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('50_SMA_SIGNAL', False)])
 **************************************************************
 stock is :  DIVISLAB.NS
-OrderedDict([   ('CMP', 3684.95),
-                ('CANDLES', OrderedDict([('CDLENGULFING', 100)])),
+OrderedDict([   ('CMP', 3688.1),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLCLOSINGMARUBOZU', 100),
+                                    ('CDLENGULFING', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('ADX_SYSTEM', True),
                                     ('AROON', True),
-                                    ('RSI', 63.32),
+                                    ('RSI', 63.5),
                                     ('MACD', False),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('50_SMA_SIGNAL', False)])
 **************************************************************
-stock is :  HEG.NS
-OrderedDict([   ('CMP', 1842.0),
-                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', 100)])),
+stock is :  BAJAJFINSV.NS
+OrderedDict([   ('CMP', 9519.5),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLSPINNINGTOP', -100),
+                                    ('CDLHARAMI', 100)])),
                 (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', True),
+                    OrderedDict([   ('ADX_SYSTEM', False),
                                     ('AROON', False),
-                                    ('RSI', 70.49),
+                                    ('RSI', 47.44),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  LT.NS
+OrderedDict([   ('CMP', 1401.0),
+                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 43.25),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  ATUL.NS
+OrderedDict([   ('CMP', 7500.1),
+                (   'CANDLES',
+                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', True),
+                                    ('RSI', 76.94),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('50_SMA_SIGNAL', True)])
 **************************************************************
+stock is :  POWERGRID.NS
+OrderedDict([   ('CMP', 209.2),
+                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 42.03),
+                                    ('MACD', True),
+                                    ('BBANDS', True)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  EIDPARRY.NS
+OrderedDict([   ('CMP', 317.55),
+                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 38.74),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  GALAXYSURF.NS
+OrderedDict([   ('CMP', 2479.95),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLSPINNINGTOP', -100),
+                                    ('CDLDOJI', 100),
+                                    ('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', True),
+                                    ('AROON', True),
+                                    ('RSI', 64.13),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  CAMS.NS
+OrderedDict([   ('CMP', 1820.45),
+                ('CANDLES', OrderedDict([('CDLHAMMER', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 46.8),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  IRB.NS
+OrderedDict([   ('CMP', 109.0),
+                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 47.55),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  HLEGLAS.NS
+OrderedDict([   ('CMP', 2263.0),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLCLOSINGMARUBOZU', -100),
+                                    ('CDLMARUBOZU', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', True),
+                                    ('AROON', False),
+                                    ('RSI', 51.7),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  DIXON.NS
+OrderedDict([   ('CMP', 3482.7),
+                (   'CANDLES',
+                    OrderedDict([('CDLSPINNINGTOP', -100), ('CDLDOJI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 38.38),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  BSOFT.NS
+OrderedDict([   ('CMP', 270.65),
+                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', True),
+                                    ('RSI', 68.46),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
 stock is :  BLUESTARCO.NS
-OrderedDict([   ('CMP', 913.1),
+OrderedDict([   ('CMP', 913.35),
                 (   'CANDLES',
                     OrderedDict([   ('CDLCLOSINGMARUBOZU', -100),
                                     ('CDLMARUBOZU', -100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('ADX_SYSTEM', False),
                                     ('AROON', False),
-                                    ('RSI', 55.36),
+                                    ('RSI', 55.43),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('50_SMA_SIGNAL', False)])
 **************************************************************
-stock is :  AMBUJACEM.NS
-OrderedDict([   ('CMP', 305.65),
-                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', -100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', True),
-                                    ('RSI', 61.79),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  ATUL.NS
-OrderedDict([   ('CMP', 7500.0),
+stock is :  AVANTIFEED.NS
+OrderedDict([   ('CMP', 449.65),
                 (   'CANDLES',
                     OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', True),
-                                    ('RSI', 76.93),
-                                    ('MACD', True),
+                                    ('AROON', False),
+                                    ('RSI', 45.48),
+                                    ('MACD', False),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', True)])
+                ('50_SMA_SIGNAL', False)])
 **************************************************************
-stock is :  DIXON.NS
-OrderedDict([   ('CMP', 3498.7),
+stock is :  PVR.NS
+OrderedDict([   ('CMP', 1128.3),
                 (   'CANDLES',
-                    OrderedDict([('CDLSPINNINGTOP', -100), ('CDLDOJI', 100)])),
+                    OrderedDict([   ('CDLCLOSINGMARUBOZU', -100),
+                                    ('CDLMARUBOZU', -100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('ADX_SYSTEM', False),
                                     ('AROON', False),
-                                    ('RSI', 38.92),
+                                    ('RSI', 23.94),
+                                    ('MACD', False),
+                                    ('BBANDS', True)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', True)])
+**************************************************************
+stock is :  AMBUJACEM.NS
+OrderedDict([   ('CMP', 305.5),
+                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', True),
+                                    ('RSI', 61.65),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('50_SMA_SIGNAL', False)])
 **************************************************************
-stock is :  LUXIND.NS
-OrderedDict([   ('CMP', 1829.75),
+stock is :  CROMPTON.NS
+OrderedDict([   ('CMP', 379.9),
                 ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('ADX_SYSTEM', False),
                                     ('AROON', False),
-                                    ('RSI', 60.42),
+                                    ('RSI', 45.18),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  JKCEMENT.NS
+OrderedDict([   ('CMP', 2858.15),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLSPINNINGTOP', -100),
+                                    ('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', True),
+                                    ('AROON', False),
+                                    ('RSI', 56.3),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('50_SMA_SIGNAL', False)])
 **************************************************************
 stock is :  KEI.NS
-OrderedDict([   ('CMP', 514.9),
+OrderedDict([   ('CMP', 515.1),
                 ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('ADX_SYSTEM', False),
                                     ('AROON', False),
-                                    ('RSI', 50.84),
+                                    ('RSI', 50.91),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('50_SMA_SIGNAL', False)])
 **************************************************************
-stock is :  IGL.NS
-OrderedDict([   ('CMP', 504.05),
+stock is :  AUROPHARMA.NS
+OrderedDict([   ('CMP', 892.8),
+                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', True),
+                                    ('RSI', 59.09),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  ALKEM.NS
+OrderedDict([   ('CMP', 2722.85),
+                (   'CANDLES',
+                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 49.02),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  WIPRO.NS
+OrderedDict([   ('CMP', 427.15),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLSPINNINGTOP', -100),
+                                    ('CDLDOJI', 100),
+                                    ('CDLHANGINGMAN', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 55.38),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  ULTRACEMCO.NS
+OrderedDict([   ('CMP', 6736.65),
+                ('CANDLES', OrderedDict([('CDL3INSIDE', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', True),
+                                    ('RSI', 54.67),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  SWARAJENG.NS
+OrderedDict([   ('CMP', 1330.35),
+                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 49.86),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  RELAXO.NS
+OrderedDict([   ('CMP', 951.5),
+                ('CANDLES', OrderedDict([('CDLENGULFING', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', True),
+                                    ('AROON', True),
+                                    ('RSI', 73.47),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  ITI.NS
+OrderedDict([   ('CMP', 114.9),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLSPINNINGTOP', -100),
+                                    ('CDLDOJI', 100),
+                                    ('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 37.05),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  BHARTIARTL.NS
+OrderedDict([   ('CMP', 532.2),
+                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 48.95),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  MOIL.NS
+OrderedDict([   ('CMP', 150.7),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLSPINNINGTOP', -100),
+                                    ('CDLDOJI', 100),
+                                    ('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 51.29),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  TITAN.NS
+OrderedDict([   ('CMP', 1525.5),
+                (   'CANDLES',
+                    OrderedDict([('CDLSPINNINGTOP', -100), ('CDLDOJI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', True),
+                                    ('RSI', 56.03),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  ITC.NS
+OrderedDict([   ('CMP', 212.65),
+                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 48.2),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  BEL.NS
+OrderedDict([   ('CMP', 130.95),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLSPINNINGTOP', -100),
+                                    ('CDLDARKCLOUDCOVER', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 48.81),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  PERSISTENT.NS
+OrderedDict([   ('CMP', 1937.8),
+                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', True),
+                                    ('AROON', False),
+                                    ('RSI', 61.65),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', True)])
+**************************************************************
+stock is :  NCC.NS
+OrderedDict([   ('CMP', 78.55),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLSPINNINGTOP', -100),
+                                    ('CDLDOJI', 100),
+                                    ('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 44.33),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  BAJFINANCE.NS
+OrderedDict([   ('CMP', 4993.1),
+                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 37.72),
+                                    ('MACD', False),
+                                    ('BBANDS', True)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  BPCL.NS
+OrderedDict([   ('CMP', 428.1),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLSPINNINGTOP', -100),
+                                    ('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 46.48),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  TATAMETALI.NS
+OrderedDict([   ('CMP', 851.15),
+                (   'CANDLES',
+                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 66.3),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  DLF.NS
+OrderedDict([   ('CMP', 278.8),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLSPINNINGTOP', -100),
+                                    ('CDLDOJI', 100),
+                                    ('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 41.16),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  NESTLEIND.NS
+OrderedDict([   ('CMP', 17081.7),
+                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 55.86),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  SYNGENE.NS
+OrderedDict([   ('CMP', 559.55),
+                ('CANDLES', OrderedDict([('CDLENGULFING', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', True),
+                                    ('AROON', True),
+                                    ('RSI', 57.33),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  MARICO.NS
+OrderedDict([   ('CMP', 403.0),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLSPINNINGTOP', 100),
+                                    ('CDLDOJI', 100),
+                                    ('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', True),
+                                    ('RSI', 49.58),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  EXIDEIND.NS
+OrderedDict([   ('CMP', 183.6),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLSPINNINGTOP', 100),
+                                    ('CDLDOJI', 100),
+                                    ('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 36.63),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  COALINDIA.NS
+OrderedDict([   ('CMP', 130.3),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLSPINNINGTOP', -100),
+                                    ('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 37.79),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  TRENT.NS
+OrderedDict([   ('CMP', 703.65),
+                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 30.79),
+                                    ('MACD', False),
+                                    ('BBANDS', True)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  TATAELXSI.NS
+OrderedDict([   ('CMP', 2876.75),
                 ('CANDLES', OrderedDict([('CDLSPINNINGTOP', -100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('ADX_SYSTEM', False),
                                     ('AROON', False),
-                                    ('RSI', 45.46),
+                                    ('RSI', 63.26),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  GUJALKALI.NS
+OrderedDict([   ('CMP', 342.0),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLSPINNINGTOP', -100),
+                                    ('CDLDOJI', 100),
+                                    ('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 50.26),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  M&M.NS
+OrderedDict([   ('CMP', 781.1),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLSPINNINGTOP', -100),
+                                    ('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 37.01),
+                                    ('MACD', False),
+                                    ('BBANDS', True)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  GMRINFRA.NS
+OrderedDict([   ('CMP', 24.25),
+                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 40.1),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  ALEMBICLTD.NS
+OrderedDict([   ('CMP', 105.8),
+                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', True),
+                                    ('AROON', False),
+                                    ('RSI', 55.45),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  CSBBANK.NS
+OrderedDict([   ('CMP', 242.85),
+                (   'CANDLES',
+                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 52.41),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  TECHM.NS
+OrderedDict([   ('CMP', 991.35),
+                ('CANDLES', OrderedDict([('CDLENGULFING', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 50.03),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  IOC.NS
+OrderedDict([   ('CMP', 91.15),
+                (   'CANDLES',
+                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 37.8),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  DABUR.NS
+OrderedDict([   ('CMP', 546.95),
+                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 63.16),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  COLPAL.NS
+OrderedDict([   ('CMP', 1568.6),
+                (   'CANDLES',
+                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 47.55),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  LUXIND.NS
+OrderedDict([   ('CMP', 1822.2),
+                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 59.72),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  ASTRAZEN.NS
+OrderedDict([   ('CMP', 3305.1),
+                (   'CANDLES',
+                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', True),
+                                    ('AROON', False),
+                                    ('RSI', 48.27),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  SRTRANSFIN.NS
+OrderedDict([   ('CMP', 1439.2),
+                (   'CANDLES',
+                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', True),
+                                    ('RSI', 58.39),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  APOLLOTYRE.NS
+OrderedDict([   ('CMP', 222.75),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLSPINNINGTOP', -100),
+                                    ('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 46.45),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  ASTRAL.NS
+OrderedDict([   ('CMP', 1556.6),
+                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 43.54),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  ASHOKA.NS
+OrderedDict([   ('CMP', 96.05),
+                (   'CANDLES',
+                    OrderedDict([('CDLSPINNINGTOP', -100), ('CDLDOJI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 37.65),
                                     ('MACD', False),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('50_SMA_SIGNAL', False)])
 **************************************************************
 stock is :  HGS.NS
-OrderedDict([   ('CMP', 1790.0),
+OrderedDict([   ('CMP', 1791.35),
                 (   'CANDLES',
                     OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('ADX_SYSTEM', True),
                                     ('AROON', True),
-                                    ('RSI', 83.79),
+                                    ('RSI', 83.83),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('50_SMA_SIGNAL', True)])
 **************************************************************
-stock is :  JYOTHYLAB.NS
-OrderedDict([   ('CMP', 142.35),
+stock is :  EIHOTEL.NS
+OrderedDict([   ('CMP', 91.55),
                 (   'CANDLES',
-                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
+                    OrderedDict([('CDLSPINNINGTOP', -100), ('CDLDOJI', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('ADX_SYSTEM', False),
                                     ('AROON', False),
-                                    ('RSI', 44.27),
+                                    ('RSI', 34.18),
                                     ('MACD', False),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  BEML.NS
+OrderedDict([   ('CMP', 1265.4),
+                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', True),
+                                    ('AROON', False),
+                                    ('RSI', 51.78),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', True)])
 **************************************************************
