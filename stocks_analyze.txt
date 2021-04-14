@@ -1,41 +1,20 @@
+'Date'
+'Date'
 inputs are all NaN
+'Date'
 inputs are all NaN
-Failed :  ['DHANI.NS', 'EPL.NS']
+Failed :  ['SRTRANSFIN.NS', 'ASHOKLEY.NS', 'EPL.NS', 'JYOTHYLAB.NS', 'DHANI.NS']
 **************************************************************
-stock is :  HDFCLIFE.NS
-OrderedDict([   ('CMP', 706.1),
-                ('CANDLES', OrderedDict([('CDLENGULFING', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', True),
-                                    ('RSI', 54.5),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  SOLARA.NS
-OrderedDict([   ('CMP', 1473.05),
+stock is :  EIDPARRY.NS
+OrderedDict([   ('CMP', 311.6),
                 (   'CANDLES',
-                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', True),
-                                    ('RSI', 64.11),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('50_SMA_SIGNAL', False)])
-**************************************************************
-stock is :  M&M.NS
-OrderedDict([   ('CMP', 811.25),
-                ('CANDLES', OrderedDict([('CDLENGULFING', 100)])),
+                    OrderedDict([('CDLSPINNINGTOP', -100), ('CDLDOJI', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('ADX_SYSTEM', False),
                                     ('AROON', False),
-                                    ('RSI', 48.18),
+                                    ('RSI', 38.54),
                                     ('MACD', False),
-                                    ('BBANDS', False)])),
+                                    ('BBANDS', True)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('50_SMA_SIGNAL', False)])
 **************************************************************
@@ -51,16 +30,15 @@ OrderedDict([   ('CMP', 415.35),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('50_SMA_SIGNAL', False)])
 **************************************************************
-stock is :  EIDPARRY.NS
-OrderedDict([   ('CMP', 311.6),
-                (   'CANDLES',
-                    OrderedDict([('CDLSPINNINGTOP', -100), ('CDLDOJI', 100)])),
+stock is :  TCS.NS
+OrderedDict([   ('CMP', 3104.05),
+                ('CANDLES', OrderedDict([('CDLEVENINGSTAR', -100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 38.54),
-                                    ('MACD', False),
-                                    ('BBANDS', True)])),
+                                    ('AROON', True),
+                                    ('RSI', 46.3),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('50_SMA_SIGNAL', False)])
 **************************************************************
@@ -74,6 +52,18 @@ OrderedDict([   ('CMP', 958.25),
                                     ('RSI', 40.57),
                                     ('MACD', False),
                                     ('BBANDS', True)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('50_SMA_SIGNAL', False)])
+**************************************************************
+stock is :  HDFCLIFE.NS
+OrderedDict([   ('CMP', 706.1),
+                ('CANDLES', OrderedDict([('CDLENGULFING', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('ADX_SYSTEM', False),
+                                    ('AROON', True),
+                                    ('RSI', 54.5),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('50_SMA_SIGNAL', False)])
 **************************************************************
