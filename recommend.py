@@ -5,6 +5,7 @@ from collections import OrderedDict
 import talib
 import pprint
 import matplotlib.pyplot as plt
+from utils import is_consolidating, is_breaking_out
 
 # Select the time-period
 start = dt.datetime(2019, 1, 1)
@@ -62,7 +63,8 @@ for stock in stocks_list:
         stock_analysis[stock]['CANDLES'] = OrderedDict()
         stock_analysis[stock]['INDICATORS'] = OrderedDict()
         stock_analysis[stock]['VOLUME'] = OrderedDict()
-        stock_analysis[stock]['50_SMA_SIGNAL'] = OrderedDict()
+        stock_analysis[stock]['IS_CONSOLIDATING'] = OrderedDict()
+        stock_analysis[stock]['IS_BREAKING_OUT'] = OrderedDict()
         # Run Various Candles
         for candle, candle_fun in candles_dict.items():
             val = round(candle_fun(open, high, low, close).iloc[-1], 2)
@@ -83,9 +85,11 @@ for stock in stocks_list:
         #stock_analysis[stock]['VOLUME']['SMA_SIGNAL'] = volume.iloc[-1] > sma_vol_10_avg and close.iloc[-1] > close.iloc[-2]
         ### Suggestion of 50 days SMA to be check against current price for swing trading :- Kunal Saraogi
         sma_price_50_avg = talib.SMA(close[:-1], timeperiod=50).iloc[-1]
-        # if the diff b/w 50_days_sma and current_price is more than 20%
-        stock_analysis[stock]['50_SMA_SIGNAL'] = abs(cur_mkt_price -
-                                                              sma_price_50_avg)/cur_mkt_price > 0.1
+
+        # is_consolidating and is_breaking_out
+        stock_analysis[stock]['IS_CONSOLIDATING'] = is_consolidating(df, percentage=2.5)
+        stock_analysis[stock]['IS_BREAKING_OUT'] = is_breaking_out(df, percentage=2.5)
+
         # ADX, +DI, -DI
         adx = round(talib.ADX(high, low, close, timeperiod=14).iloc[-1], 2)
         minus_di = round(talib.MINUS_DI(high, low, close, timeperiod=14).iloc[-1], 2)
