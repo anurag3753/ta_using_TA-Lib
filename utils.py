@@ -46,6 +46,3 @@ def ttm_squeeze(df):
         return True, True
     else:
         return False, False
-
-def ttm_squeeze_on(df):
-
