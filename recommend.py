@@ -5,7 +5,7 @@ from collections import OrderedDict
 import talib
 import pprint
 import matplotlib.pyplot as plt
-from utils import is_consolidating, is_breaking_out
+from utils import is_consolidating, is_breaking_out, ttm_squeeze
 
 # Select the time-period
 start = dt.datetime(2019, 1, 1)
@@ -65,6 +65,8 @@ for stock in stocks_list:
         stock_analysis[stock]['VOLUME'] = OrderedDict()
         stock_analysis[stock]['IS_CONSOLIDATING'] = OrderedDict()
         stock_analysis[stock]['IS_BREAKING_OUT'] = OrderedDict()
+        stock_analysis[stock]['TTM_SQUEEZE'] = OrderedDict()
+
         # Run Various Candles
         for candle, candle_fun in candles_dict.items():
             val = round(candle_fun(open, high, low, close).iloc[-1], 2)
@@ -89,6 +91,10 @@ for stock in stocks_list:
         # is_consolidating and is_breaking_out
         stock_analysis[stock]['IS_CONSOLIDATING'] = is_consolidating(df, percentage=2.5)
         stock_analysis[stock]['IS_BREAKING_OUT'] = is_breaking_out(df, percentage=2.5)
+
+        # TTM SQUEEZE
+        in_squeeze, out_of_squeeze = ttm_squeeze(df)
+        stock_analysis[stock]['TTM_SQUEEZE'] = "in_squeeze = {}, out_of_squeeze = {}".format(in_squeeze, out_of_squeeze)
 
         # ADX, +DI, -DI
         adx = round(talib.ADX(high, low, close, timeperiod=14).iloc[-1], 2)
