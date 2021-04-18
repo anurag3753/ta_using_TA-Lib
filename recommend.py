@@ -96,6 +96,13 @@ for stock in stocks_list:
         in_squeeze, out_of_squeeze = ttm_squeeze(df)
         stock_analysis[stock]['TTM_SQUEEZE'] = "in_squeeze = {}, out_of_squeeze = {}".format(in_squeeze, out_of_squeeze)
 
+        # Moving Average Confirmation
+        ema_21 = talib.EMA(close, timeperiod=21)
+        ema_55 = talib.EMA(close, timeperiod=55)
+        ema_100 = talib.EMA(close, timeperiod=100)
+        ema_200 = talib.EMA(close, timeperiod=200)
+        stock_analysis[stock]['INDICATORS']['EMA_SIGNAL'] = (ema_21.iloc[-1] > ema_55.iloc[-1]) and (ema_55.iloc[-1] > ema_100.iloc[-1]) and (ema_100.iloc[-1] > ema_200.iloc[-1])
+
         # ADX, +DI, -DI
         adx = round(talib.ADX(high, low, close, timeperiod=14).iloc[-1], 2)
         minus_di = round(talib.MINUS_DI(high, low, close, timeperiod=14).iloc[-1], 2)
