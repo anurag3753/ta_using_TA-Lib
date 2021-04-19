@@ -4,15 +4,22 @@ import pandas as pd
 from collections import OrderedDict
 import talib
 import pprint
+import sys
 import matplotlib.pyplot as plt
 from utils import is_consolidating, is_breaking_out, ttm_squeeze
+from holdings import my_holdings
+
+# Read Sys argv params (i/p filename, start date for analysis)
+input_filename = sys.argv[1]
+# format of yyyy-mm-dd
+#startdate = 
 
 # Select the time-period
 start = dt.datetime(2019, 1, 1)
 end = dt.datetime.now()
 
 stocks_list = set()
-with open("universe.txt", "r") as f:
+with open(input_filename, "r") as f:
     data = f.readlines()
 
 # Stocks of interest
@@ -129,7 +136,6 @@ for stock in stocks_list:
         pass
 print("Failed : ", str(failed_to_read))
 
-# with open("analysis.txt", "w") as f:
 pp = pprint.PrettyPrinter(indent=4)
 
 for stock, indicators in stock_analysis.items():
