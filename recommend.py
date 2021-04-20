@@ -12,10 +12,11 @@ from holdings import my_holdings
 # Read Sys argv params (i/p filename, start date for analysis)
 input_filename = sys.argv[1]
 # format of yyyy-mm-dd
-#startdate = 
+startdate = sys.argv[2]
 
 # Select the time-period
-start = dt.datetime(2019, 1, 1)
+#start = dt.datetime(2019, 1, 1)
+start = dt.datetime.strptime(startdate, "%Y-%m-%d")
 end = dt.datetime.now()
 
 stocks_list = set()
