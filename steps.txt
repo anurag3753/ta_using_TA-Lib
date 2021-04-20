@@ -1,0 +1,2 @@
+ssh -i anurag_key.pem azureuser@20.198.87.72
+
