@@ -1,3 +1,6 @@
+
+import talib
+
 def is_consolidating(df, percentage=2.5):
     recent_candlesticks = df[-15:]
     
@@ -46,3 +49,18 @@ def ttm_squeeze(df):
         return True, True
     else:
         return False, False
+
+
+## Implement ATR
+def cal_atr(df, timeperiod=14):
+    atr = talib.ATR(df['High'], df['Low'], df['Close'], timeperiod=timeperiod)
+    return atr
+
+## Implement Super trend Indicator
+def super_trend(df, timeperiod=14, multiplier=3):
+    atr = cal_atr(df, timeperiod=timeperiod)
+    df['basic_upperband'] = ((df['High'] + df['Low']) / 2 ) + (multiplier * atr)
+    df['basic_lowerband'] = ((df['High'] + df['Low']) / 2 ) - (multiplier * atr)
+
+
+
