@@ -115,9 +115,9 @@ for stock in stocks_list:
         adx = round(talib.ADX(high, low, close, timeperiod=14).iloc[-1], 2)
         minus_di = round(talib.MINUS_DI(high, low, close, timeperiod=14).iloc[-1], 2)
         plus_di = round(talib.PLUS_DI(high, low, close, timeperiod=14).iloc[-1], 2)
-        stock_analysis[stock]['INDICATORS']['ADX_SYSTEM'] = adx > 25 and plus_di > minus_di
+        stock_analysis[stock]['INDICATORS']['ADX_SYSTEM'] = adx >= 25 and plus_di > minus_di
         # Aroon Oscillator
-        stock_analysis[stock]['INDICATORS']['AROON'] = round(talib.AROONOSC(high, low).iloc[-1], 2) > 50
+        stock_analysis[stock]['INDICATORS']['AROON'] = round(talib.AROONOSC(high, low, timeperiod=25).iloc[-1], 2) > 0
 
         stock_analysis[stock]['INDICATORS']['RSI'] = round(talib.RSI(close, timeperiod=14).iloc[-1], 2)
         macd, macdsignal, macdhist = talib.MACD(close, fastperiod=12, slowperiod=26, signalperiod=9)
