@@ -1,13 +1,13 @@
 Failed :  []
 **************************************************************
-stock is :  SRF.NS
-OrderedDict([   ('CMP', 6422.5),
-                ('CANDLES', OrderedDict([('CDLDARKCLOUDCOVER', -100)])),
+stock is :  KPITTECH.NS
+OrderedDict([   ('CMP', 195.8),
+                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', -100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', True),
                                     ('ADX_SYSTEM', True),
                                     ('AROON', True),
-                                    ('RSI', 69.16),
+                                    ('RSI', 65.79),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
@@ -15,14 +15,15 @@ OrderedDict([   ('CMP', 6422.5),
                 ('IS_BREAKING_OUT', False),
                 ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
 **************************************************************
-stock is :  KPRMILL.NS
-OrderedDict([   ('CMP', 1346.2),
-                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', 100)])),
+stock is :  PERSISTENT.NS
+OrderedDict([   ('CMP', 1993.95),
+                (   'CANDLES',
+                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', True),
                                     ('ADX_SYSTEM', True),
                                     ('AROON', True),
-                                    ('RSI', 73.14),
+                                    ('RSI', 59.83),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
@@ -30,60 +31,30 @@ OrderedDict([   ('CMP', 1346.2),
                 ('IS_BREAKING_OUT', False),
                 ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
 **************************************************************
-stock is :  BALAMINES.NS
-OrderedDict([   ('CMP', 2424.1),
-                ('CANDLES', OrderedDict([('CDLDARKCLOUDCOVER', -100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('EMA_SIGNAL', True),
-                                    ('ADX_SYSTEM', True),
-                                    ('AROON', True),
-                                    ('RSI', 77.55),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('IS_CONSOLIDATING', False),
-                ('IS_BREAKING_OUT', False),
-                ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
-**************************************************************
-stock is :  HINDCOPPER.NS
-OrderedDict([   ('CMP', 158.1),
+stock is :  SUNDRMFAST.NS
+OrderedDict([   ('CMP', 697.3),
                 (   'CANDLES',
                     OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', True),
                                     ('ADX_SYSTEM', False),
-                                    ('AROON', True),
-                                    ('RSI', 66.28),
-                                    ('MACD', True),
+                                    ('AROON', False),
+                                    ('RSI', 46.44),
+                                    ('MACD', False),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('IS_CONSOLIDATING', False),
                 ('IS_BREAKING_OUT', False),
                 ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
 **************************************************************
-stock is :  POLYCAB.NS
-OrderedDict([   ('CMP', 1561.1),
-                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', 100)])),
+stock is :  JSWSTEEL.NS
+OrderedDict([   ('CMP', 727.0),
+                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', True),
                                     ('ADX_SYSTEM', True),
                                     ('AROON', True),
-                                    ('RSI', 73.52),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('IS_CONSOLIDATING', False),
-                ('IS_BREAKING_OUT', False),
-                ('TTM_SQUEEZE', 'in_squeeze = True, out_of_squeeze = True')])
-**************************************************************
-stock is :  BUTTERFLY.NS
-OrderedDict([   ('CMP', 674.3),
-                ('CANDLES', OrderedDict([('CDLENGULFING', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('EMA_SIGNAL', True),
-                                    ('ADX_SYSTEM', False),
-                                    ('AROON', True),
-                                    ('RSI', 65.61),
+                                    ('RSI', 86.35),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
@@ -91,61 +62,96 @@ OrderedDict([   ('CMP', 674.3),
                 ('IS_BREAKING_OUT', False),
                 ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
 **************************************************************
-stock is :  JKCEMENT.NS
-OrderedDict([   ('CMP', 2789.05),
+stock is :  SYNGENE.NS
+OrderedDict([   ('CMP', 578.5),
                 (   'CANDLES',
-                    OrderedDict([('CDLSPINNINGTOP', -100), ('CDLDOJI', 100)])),
+                    OrderedDict([   ('CDLCLOSINGMARUBOZU', -100),
+                                    ('CDLMARUBOZU', -100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', True),
-                                    ('ADX_SYSTEM', False),
+                                    ('ADX_SYSTEM', True),
                                     ('AROON', True),
-                                    ('RSI', 46.85),
+                                    ('RSI', 55.44),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('IS_CONSOLIDATING', False),
                 ('IS_BREAKING_OUT', False),
-                ('TTM_SQUEEZE', 'in_squeeze = True, out_of_squeeze = False')])
+                ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
 **************************************************************
-stock is :  HDFCAMC.NS
-OrderedDict([   ('CMP', 2806.0),
-                ('CANDLES', OrderedDict([('CDLDARKCLOUDCOVER', -100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('EMA_SIGNAL', False),
-                                    ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 42.34),
-                                    ('MACD', False),
-                                    ('BBANDS', True)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('IS_CONSOLIDATING', False),
-                ('IS_BREAKING_OUT', False),
-                ('TTM_SQUEEZE', 'in_squeeze = True, out_of_squeeze = True')])
-**************************************************************
-stock is :  BRITANNIA.NS
-OrderedDict([   ('CMP', 3478.75),
-                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', -100)])),
+stock is :  KNRCON.NS
+OrderedDict([   ('CMP', 199.4),
+                ('CANDLES', OrderedDict([('CDLDOJI', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', True),
                                     ('ADX_SYSTEM', False),
                                     ('AROON', True),
-                                    ('RSI', 37.79),
-                                    ('MACD', True),
-                                    ('BBANDS', True)])),
+                                    ('RSI', 43.13),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('IS_CONSOLIDATING', False),
                 ('IS_BREAKING_OUT', False),
-                ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
+                ('TTM_SQUEEZE', 'in_squeeze = True, out_of_squeeze = True')])
 **************************************************************
 stock is :  DEEPAKNTR.NS
-OrderedDict([   ('CMP', 1780.45),
+OrderedDict([   ('CMP', 1787.75),
                 ('CANDLES', OrderedDict([('CDLSPINNINGTOP', -100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', True),
                                     ('ADX_SYSTEM', True),
                                     ('AROON', True),
-                                    ('RSI', 69.24),
+                                    ('RSI', 69.64),
                                     ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
+**************************************************************
+stock is :  TATASTEEL.NS
+OrderedDict([   ('CMP', 1032.0),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLCLOSINGMARUBOZU', 100),
+                                    ('CDLMARUBOZU', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', True),
+                                    ('ADX_SYSTEM', True),
+                                    ('AROON', True),
+                                    ('RSI', 78.27),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
+**************************************************************
+stock is :  TIINDIA.NS
+OrderedDict([   ('CMP', 1268.3),
+                (   'CANDLES',
+                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', True),
+                                    ('ADX_SYSTEM', True),
+                                    ('AROON', True),
+                                    ('RSI', 69.12),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                ('TTM_SQUEEZE', 'in_squeeze = True, out_of_squeeze = True')])
+**************************************************************
+stock is :  RADICO.NS
+OrderedDict([   ('CMP', 575.0),
+                (   'CANDLES',
+                    OrderedDict([('CDLDOJI', 100), ('CDLHANGINGMAN', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', True),
+                                    ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 61.08),
+                                    ('MACD', False),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('IS_CONSOLIDATING', False),
