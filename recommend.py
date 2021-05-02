@@ -6,7 +6,7 @@ import talib
 import pprint
 import sys
 import matplotlib.pyplot as plt
-from utils import is_consolidating, is_breaking_out, ttm_squeeze
+from utils import is_consolidating, is_breaking_out, ttm_squeeze, super_trend
 from holdings import my_holdings
 
 # Read Sys argv params (i/p filename, start date for analysis)
@@ -73,6 +73,7 @@ for stock in stocks_list:
         stock_analysis[stock]['VOLUME'] = OrderedDict()
         stock_analysis[stock]['IS_CONSOLIDATING'] = OrderedDict()
         stock_analysis[stock]['IS_BREAKING_OUT'] = OrderedDict()
+        stock_analysis[stock]['SUPERTREND'] = OrderedDict()
         stock_analysis[stock]['TTM_SQUEEZE'] = OrderedDict()
 
         # Run Various Candles
@@ -99,6 +100,10 @@ for stock in stocks_list:
         # is_consolidating and is_breaking_out
         stock_analysis[stock]['IS_CONSOLIDATING'] = is_consolidating(df, percentage=2.5)
         stock_analysis[stock]['IS_BREAKING_OUT'] = is_breaking_out(df, percentage=2.5)
+
+        # Super Trend Calculation
+        sup_old, sup_new = super_trend(df, multiplier=2)
+        stock_analysis[stock]['SUPERTREND'] = "supertrend_old = {}, supertrend_new = {} and multipler = 2, timeperiod = 14 days".format(sup_old, sup_new)
 
         # TTM SQUEEZE
         in_squeeze, out_of_squeeze = ttm_squeeze(df)
