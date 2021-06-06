@@ -1,15 +1,31 @@
 Failed :  []
 **************************************************************
-stock is :  MUTHOOTFIN.NS
-OrderedDict([   ('CMP', 1509.35),
-                (   'CANDLES',
-                    OrderedDict([   ('CDLSPINNINGTOP', 100),
-                                    ('CDLHARAMI', -100)])),
+stock is :  PGHH.NS
+OrderedDict([   ('CMP', 12847.3),
+                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', True),
+                                    ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 37.29),
+                                    ('MACD', False),
+                                    ('BBANDS', True)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                (   'SUPERTREND',
+                    'supertrend_old = False, supertrend_new = False and '
+                    'multipler = 2, timeperiod = 14 days'),
+                ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
+**************************************************************
+stock is :  HAL.NS
+OrderedDict([   ('CMP', 1062.45),
+                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', True),
                                     ('ADX_SYSTEM', True),
                                     ('AROON', True),
-                                    ('RSI', 81.72),
+                                    ('RSI', 67.84),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
@@ -38,32 +54,16 @@ OrderedDict([   ('CMP', 442.65),
                     'multipler = 2, timeperiod = 14 days'),
                 ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
 **************************************************************
-stock is :  PGHH.NS
-OrderedDict([   ('CMP', 12847.3),
-                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('EMA_SIGNAL', True),
-                                    ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 37.29),
-                                    ('MACD', False),
-                                    ('BBANDS', True)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('IS_CONSOLIDATING', False),
-                ('IS_BREAKING_OUT', False),
-                (   'SUPERTREND',
-                    'supertrend_old = False, supertrend_new = False and '
-                    'multipler = 2, timeperiod = 14 days'),
-                ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
-**************************************************************
-stock is :  HAL.NS
-OrderedDict([   ('CMP', 1062.45),
-                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', 100)])),
+stock is :  MUTHOOTFIN.NS
+OrderedDict([   ('CMP', 1509.35),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLSPINNINGTOP', 100),
+                                    ('CDLHARAMI', -100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', True),
                                     ('ADX_SYSTEM', True),
                                     ('AROON', True),
-                                    ('RSI', 67.84),
+                                    ('RSI', 81.72),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
