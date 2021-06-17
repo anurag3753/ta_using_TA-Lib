@@ -1,31 +1,14 @@
 Failed :  []
 **************************************************************
-stock is :  BAJAJCON.NS
-OrderedDict([   ('CMP', 295.45),
-                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', 100)])),
+stock is :  SUNTV.NS
+OrderedDict([   ('CMP', 529.0),
+                (   'CANDLES',
+                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', True),
-                                    ('ADX_SYSTEM', True),
+                                    ('ADX_SYSTEM', False),
                                     ('AROON', True),
-                                    ('RSI', 57.32),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('IS_CONSOLIDATING', False),
-                ('IS_BREAKING_OUT', False),
-                (   'SUPERTREND',
-                    'supertrend_old = True, supertrend_new = True and '
-                    'multipler = 2, timeperiod = 14 days'),
-                ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
-**************************************************************
-stock is :  ICICIGI.NS
-OrderedDict([   ('CMP', 1516.2),
-                ('CANDLES', OrderedDict([('CDLENGULFING', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('EMA_SIGNAL', True),
-                                    ('ADX_SYSTEM', True),
-                                    ('AROON', True),
-                                    ('RSI', 60.12),
+                                    ('RSI', 53.93),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
@@ -36,14 +19,14 @@ OrderedDict([   ('CMP', 1516.2),
                     'multipler = 2, timeperiod = 14 days'),
                 ('TTM_SQUEEZE', 'in_squeeze = True, out_of_squeeze = False')])
 **************************************************************
-stock is :  CESC.NS
-OrderedDict([   ('CMP', 771.45),
-                ('CANDLES', OrderedDict([('CDLENGULFING', -100)])),
+stock is :  JKLAKSHMI.NS
+OrderedDict([   ('CMP', 578.8),
+                ('CANDLES', OrderedDict([('CDLENGULFING', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', True),
                                     ('ADX_SYSTEM', True),
                                     ('AROON', True),
-                                    ('RSI', 72.29),
+                                    ('RSI', 72.38),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
@@ -54,14 +37,14 @@ OrderedDict([   ('CMP', 771.45),
                     'multipler = 2, timeperiod = 14 days'),
                 ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
 **************************************************************
-stock is :  RITES.NS
-OrderedDict([   ('CMP', 276.5),
-                ('CANDLES', OrderedDict([('CDLENGULFING', -100)])),
+stock is :  CESC.NS
+OrderedDict([   ('CMP', 776.25),
+                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', -100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', True),
                                     ('ADX_SYSTEM', True),
                                     ('AROON', True),
-                                    ('RSI', 69.64),
+                                    ('RSI', 73.25),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
