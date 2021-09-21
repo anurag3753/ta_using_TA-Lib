@@ -1,13 +1,13 @@
 Failed :  []
 **************************************************************
-stock is :  HINDUNILVR.NS
-OrderedDict([   ('CMP', 2800.35),
-                ('CANDLES', OrderedDict([('CDLENGULFING', 100)])),
+stock is :  BAJFINANCE.NS
+OrderedDict([   ('CMP', 7802.2),
+                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', True),
                                     ('ADX_SYSTEM', True),
                                     ('AROON', True),
-                                    ('RSI', 67.89),
+                                    ('RSI', 83.89),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
@@ -18,87 +18,14 @@ OrderedDict([   ('CMP', 2800.35),
                     'multipler = 2, timeperiod = 14 days'),
                 ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
 **************************************************************
-stock is :  CROMPTON.NS
-OrderedDict([   ('CMP', 483.7),
-                (   'CANDLES',
-                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
+stock is :  HINDALCO.NS
+OrderedDict([   ('CMP', 451.0),
+                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', True),
                                     ('ADX_SYSTEM', False),
                                     ('AROON', True),
-                                    ('RSI', 55.41),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('IS_CONSOLIDATING', False),
-                ('IS_BREAKING_OUT', False),
-                (   'SUPERTREND',
-                    'supertrend_old = True, supertrend_new = True and '
-                    'multipler = 2, timeperiod = 14 days'),
-                ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
-**************************************************************
-stock is :  BAJAJFINSV.NS
-OrderedDict([   ('CMP', 17018.95),
-                ('CANDLES', OrderedDict([('CDL3INSIDE', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('EMA_SIGNAL', True),
-                                    ('ADX_SYSTEM', True),
-                                    ('AROON', True),
-                                    ('RSI', 69.73),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('IS_CONSOLIDATING', False),
-                ('IS_BREAKING_OUT', False),
-                (   'SUPERTREND',
-                    'supertrend_old = True, supertrend_new = True and '
-                    'multipler = 2, timeperiod = 14 days'),
-                ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
-**************************************************************
-stock is :  AARTIDRUGS.NS
-OrderedDict([   ('CMP', 630.75),
-                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('EMA_SIGNAL', False),
-                                    ('ADX_SYSTEM', True),
-                                    ('AROON', False),
-                                    ('RSI', 51.71),
-                                    ('MACD', False),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('IS_CONSOLIDATING', False),
-                ('IS_BREAKING_OUT', False),
-                (   'SUPERTREND',
-                    'supertrend_old = False, supertrend_new = True and '
-                    'multipler = 2, timeperiod = 14 days'),
-                ('TTM_SQUEEZE', 'in_squeeze = True, out_of_squeeze = False')])
-**************************************************************
-stock is :  GMRINFRA.NS
-OrderedDict([   ('CMP', 34.05),
-                ('CANDLES', OrderedDict([('CDLENGULFING', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('EMA_SIGNAL', True),
-                                    ('ADX_SYSTEM', True),
-                                    ('AROON', True),
-                                    ('RSI', 73.61),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('IS_CONSOLIDATING', False),
-                ('IS_BREAKING_OUT', False),
-                (   'SUPERTREND',
-                    'supertrend_old = True, supertrend_new = True and '
-                    'multipler = 2, timeperiod = 14 days'),
-                ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
-**************************************************************
-stock is :  SAREGAMA.NS
-OrderedDict([   ('CMP', 3666.9),
-                ('CANDLES', OrderedDict([('CDLINVERTEDHAMMER', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('EMA_SIGNAL', True),
-                                    ('ADX_SYSTEM', True),
-                                    ('AROON', True),
-                                    ('RSI', 52.44),
+                                    ('RSI', 49.35),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
@@ -106,6 +33,170 @@ OrderedDict([   ('CMP', 3666.9),
                 ('IS_BREAKING_OUT', False),
                 (   'SUPERTREND',
                     'supertrend_old = True, supertrend_new = False and '
+                    'multipler = 2, timeperiod = 14 days'),
+                ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
+**************************************************************
+stock is :  MUTHOOTFIN.NS
+OrderedDict([   ('CMP', 1481.9),
+                ('CANDLES', OrderedDict([('CDLHARAMI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', True),
+                                    ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 41.42),
+                                    ('MACD', True),
+                                    ('BBANDS', True)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                (   'SUPERTREND',
+                    'supertrend_old = True, supertrend_new = False and '
+                    'multipler = 2, timeperiod = 14 days'),
+                ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
+**************************************************************
+stock is :  BAJAJFINSV.NS
+OrderedDict([   ('CMP', 17541.05),
+                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', True),
+                                    ('ADX_SYSTEM', True),
+                                    ('AROON', True),
+                                    ('RSI', 75.12),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                (   'SUPERTREND',
+                    'supertrend_old = True, supertrend_new = True and '
+                    'multipler = 2, timeperiod = 14 days'),
+                ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
+**************************************************************
+stock is :  CGCL.NS
+OrderedDict([   ('CMP', 501.05),
+                (   'CANDLES',
+                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', False),
+                                    ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 38.79),
+                                    ('MACD', False),
+                                    ('BBANDS', True)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', True),
+                ('IS_BREAKING_OUT', False),
+                (   'SUPERTREND',
+                    'supertrend_old = True, supertrend_new = True and '
+                    'multipler = 2, timeperiod = 14 days'),
+                ('TTM_SQUEEZE', 'in_squeeze = True, out_of_squeeze = False')])
+**************************************************************
+stock is :  TATAMETALI.NS
+OrderedDict([   ('CMP', 965.0),
+                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', False),
+                                    ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 24.34),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                (   'SUPERTREND',
+                    'supertrend_old = False, supertrend_new = False and '
+                    'multipler = 2, timeperiod = 14 days'),
+                ('TTM_SQUEEZE', 'in_squeeze = True, out_of_squeeze = True')])
+**************************************************************
+stock is :  TATASTEEL.NS
+OrderedDict([   ('CMP', 1294.25),
+                ('CANDLES', OrderedDict([('CDLCLOSINGMARUBOZU', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', True),
+                                    ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 37.37),
+                                    ('MACD', True),
+                                    ('BBANDS', True)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                (   'SUPERTREND',
+                    'supertrend_old = False, supertrend_new = False and '
+                    'multipler = 2, timeperiod = 14 days'),
+                ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
+**************************************************************
+stock is :  GSPL.NS
+OrderedDict([   ('CMP', 314.35),
+                ('CANDLES', OrderedDict([('CDLHAMMER', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', True),
+                                    ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 26.22),
+                                    ('MACD', False),
+                                    ('BBANDS', True)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                (   'SUPERTREND',
+                    'supertrend_old = False, supertrend_new = False and '
+                    'multipler = 2, timeperiod = 14 days'),
+                ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
+**************************************************************
+stock is :  ALKYLAMINE.NS
+OrderedDict([   ('CMP', 3968.1),
+                ('CANDLES', OrderedDict([('CDLENGULFING', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', True),
+                                    ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 45.12),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                (   'SUPERTREND',
+                    'supertrend_old = False, supertrend_new = False and '
+                    'multipler = 2, timeperiod = 14 days'),
+                ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
+**************************************************************
+stock is :  SAREGAMA.NS
+OrderedDict([   ('CMP', 3700.1),
+                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', True),
+                                    ('ADX_SYSTEM', False),
+                                    ('AROON', True),
+                                    ('RSI', 53.61),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                (   'SUPERTREND',
+                    'supertrend_old = True, supertrend_new = False and '
+                    'multipler = 2, timeperiod = 14 days'),
+                ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
+**************************************************************
+stock is :  HINDUNILVR.NS
+OrderedDict([   ('CMP', 2812.3),
+                (   'CANDLES',
+                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', True),
+                                    ('ADX_SYSTEM', True),
+                                    ('AROON', True),
+                                    ('RSI', 68.98),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                (   'SUPERTREND',
+                    'supertrend_old = True, supertrend_new = True and '
                     'multipler = 2, timeperiod = 14 days'),
                 ('TTM_SQUEEZE', 'in_squeeze = False, out_of_squeeze = False')])
 **************************************************************
