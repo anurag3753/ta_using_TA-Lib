@@ -1,0 +1,5 @@
+20 09 * * * /home/azureuser/run.sh "universe.txt" "stocks_analyze.txt" "2019-01-01" >> /home/azureuser/log/myscript.log 2>&1
+30 14 * * * /home/azureuser/run.sh "universe.txt" "stocks_analyze.txt" "2019-01-01" >> /home/azureuser/log/myscript1.log 2>&1
+40 09 * * * /home/azureuser/run.sh "invest.txt" "invest_analyze.txt" "2015-01-01" >> /home/azureuser/log/myscript2.log 2>&1
+30 13 * * * /home/azureuser/run.sh "invest.txt" "invest_analyze.txt" "2015-01-01" >> /home/azureuser/log/myscript2.log 2>&1
+
