@@ -1,0 +1,123 @@
+---
+default_language_version:
+  python: python3
+
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0   # Use the ref you want to point at
+    hooks:
+    -   id: check-added-large-files
+    -   id: check-case-conflict
+    -   id: check-docstring-first
+    -   id: check-yaml
+    -   id: check-json
+    -   id: debug-statements
+    -   id: name-tests-test
+    -   id: detect-private-key
+    # -   id: no-commit-to-branch                     # prevents from pushing to main or master branch
+    -   id: end-of-file-fixer
+    -   id: requirements-txt-fixer
+    -   id: trailing-whitespace
+    -   id: check-executables-have-shebangs
+
+
+-   repo: https://github.com/PyCQA/autoflake          # removes unused imports and unused variables from Python code
+    rev: v2.2.0
+    hooks:
+    -   id: autoflake
+
+
+-   repo: https://github.com/asottile/reorder-python-imports
+    rev: v3.10.0
+    hooks:
+    -   id: reorder-python-imports
+
+# -   repo: https://github.com/pycqa/isort              # sort imports alphabetically and automatically separate into sections and by type
+#     rev: v5.11.3
+#     hooks:
+#     -   id: isort
+
+-   repo: https://github.com/pre-commit/mirrors-autopep8
+    rev: v2.0.2
+    hooks:
+    -   id: autopep8
+
+-   repo: https://github.com/psf/black                # code formatter
+    rev: 23.3.0
+    hooks:
+    -   id: black
+        args: [--line-length=79]
+
+-   repo: https://github.com/asottile/pyupgrade       # automatically upgrade python syntax as per new python releases
+    rev: v3.7.0
+    hooks:
+    -   id: pyupgrade
+
+# -   repo: https://github.com/jendrikseipp/vulture     # Find unused Python code.
+#     rev: v2.7
+#     hooks:
+#     -   id: vulture
+
+# -   repo: https://github.com/asottile/dead            # Find unused python code
+#     rev: v1.5.2
+#     hooks:
+#     -   id: dead
+
+-   repo: https://github.com/pycqa/flake8             # Tool For Style Guide Enforcement
+    rev: 6.0.0
+    hooks:
+    -   id: flake8
+
+-   repo: https://github.com/pycqa/bandit             # Security Vulnerabilities
+    rev: 1.7.5
+    hooks:
+    -   id: bandit
+
+# -   repo: https://github.com/PyCQA/pylint             # https://github.com/pylint-dev/pylint#advised-linters-alongside-pylint
+#     rev: v2.17.4
+#     hooks:
+#     -   id: pylint
+#         require_serial: true
+#         # additional_dependencies:
+#         #   - docutils
+#         #   - restructuredtext-lint
+#         #   - stevedore
+
+-   repo: https://github.com/DanielNoord/pydocstringformatter
+    rev: v0.7.3
+    hooks:
+    -   id: pydocstringformatter
+
+-   repo: local
+    hooks:
+    -   id: system
+        name: PyLint
+        entry: python -m pylint.__main__
+        language: system
+        files: \.py$
+
+-   repo: local
+    hooks:
+    -   id: system
+        name: MyPy
+        entry: python -m mypy.__main__
+        language: system
+        files: \.py$
+
+
+# -   repo: https://github.com/pre-commit/mirrors-mypy
+#     rev: v1.4.1
+#     hooks:
+#     -   id: mypy
+#         # empty args needed in order to match mypy cli behavior
+#         args: []
+#         # entry: mypy
+#         # pass_filenames: false
+#         additional_dependencies:
+#         #   - numpy
+#           - types-mock
+#           - types-setuptools
+#           - types-docutils
