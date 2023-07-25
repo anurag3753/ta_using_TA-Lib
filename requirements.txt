@@ -2,3 +2,5 @@ openpyxl
 pandas
 requests
 beautifulsoup4
+pandas-datareader
+yfinance
