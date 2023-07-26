@@ -11,8 +11,8 @@ from utils import is_consolidating, is_breaking_out, ttm_squeeze, super_trend
 from holdings import my_holdings
 
 # Read Sys argv params (i/p filename, start date for analysis)
-# input_filename = sys.argv[1]
-input_filename = "test.txt"
+input_filename = sys.argv[1]
+#input_filename = "test.txt"
 # format of yyyy-mm-dd
 # startdate = sys.argv[2]
 startdate = "2022-01-01"
@@ -112,21 +112,6 @@ for stock in stocks_list:
             df, percentage=2.5
         )
 
-        # Super Trend Calculation
-        sup_old, sup_new = super_trend(df, multiplier=2)
-        stock_analysis[stock][
-            "SUPERTREND"
-        ] = "supertrend_old = {}, supertrend_new = {} and multipler = 2, timeperiod = 14 days".format(
-            sup_old, sup_new
-        )
-
-        # TTM SQUEEZE
-        in_squeeze, out_of_squeeze = ttm_squeeze(df)
-        stock_analysis[stock][
-            "TTM_SQUEEZE"
-        ] = "in_squeeze = {}, out_of_squeeze = {}".format(
-            in_squeeze, out_of_squeeze
-        )
 
         # Moving Average Confirmation
         ema_21 = talib.EMA(close, timeperiod=21)
