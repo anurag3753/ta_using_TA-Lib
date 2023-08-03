@@ -7,6 +7,58 @@
 [*********************100%***********************]  1 of 1 completed
 [*********************100%***********************]  1 of 1 completed
 [*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+single positional indexer is out-of-bounds
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+single positional indexer is out-of-bounds
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+single positional indexer is out-of-bounds
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
+[*********************100%***********************]  1 of 1 completed
 single positional indexer is out-of-bounds
 [*********************100%***********************]  1 of 1 completed
 [*********************100%***********************]  1 of 1 completed
@@ -47,7 +99,6 @@ single positional indexer is out-of-bounds
 [*********************100%***********************]  1 of 1 completed
 [*********************100%***********************]  1 of 1 completed
 [*********************100%***********************]  1 of 1 completed
-single positional indexer is out-of-bounds
 [*********************100%***********************]  1 of 1 completed
 [*********************100%***********************]  1 of 1 completed
 [*********************100%***********************]  1 of 1 completed
@@ -55,69 +106,18 @@ single positional indexer is out-of-bounds
 [*********************100%***********************]  1 of 1 completed
 [*********************100%***********************]  1 of 1 completed
 [*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-single positional indexer is out-of-bounds
-[*********************100%***********************]  1 of 1 completed
-single positional indexer is out-of-bounds
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-[*********************100%***********************]  1 of 1 completed
-Failed :  ['MOTHERSUMI.NS', 'SRTRANSFIN.NS', 'PVR.NS', 'CADILAHC.NS']
+Failed :  ['SRTRANSFIN.NS', 'CADILAHC.NS', 'PVR.NS', 'MOTHERSUMI.NS']
 **************************************************************
 stock is :  MARUTI.NS
-OrderedDict([   ('CMP', 9716.75),
+OrderedDict([   ('CMP', 9653.8),
                 (   'CANDLES',
                     OrderedDict([   ('CDLSPINNINGTOP', -100),
-                                    ('CDLHARAMI', -100)])),
+                                    ('CDL3INSIDE', -100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', True),
                                     ('ADX_SYSTEM', False),
                                     ('AROON', True),
-                                    ('RSI', 51.75),
+                                    ('RSI', 48.86),
                                     ('MACD', True),
                                     ('BBANDS', True)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
@@ -126,15 +126,14 @@ OrderedDict([   ('CMP', 9716.75),
                 ('SUPERTREND', OrderedDict()),
                 ('TTM_SQUEEZE', OrderedDict())])
 **************************************************************
-stock is :  JMFINANCIL.NS
-OrderedDict([   ('CMP', 78.15),
-                (   'CANDLES',
-                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
+stock is :  NCC.NS
+OrderedDict([   ('CMP', 152.05),
+                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', -100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', True),
                                     ('ADX_SYSTEM', True),
                                     ('AROON', True),
-                                    ('RSI', 69.06),
+                                    ('RSI', 67.37),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
@@ -143,15 +142,15 @@ OrderedDict([   ('CMP', 78.15),
                 ('SUPERTREND', OrderedDict()),
                 ('TTM_SQUEEZE', OrderedDict())])
 **************************************************************
-stock is :  UPL.NS
-OrderedDict([   ('CMP', 625.7),
-                ('CANDLES', OrderedDict([('CDLENGULFING', 100)])),
+stock is :  ASTERDM.NS
+OrderedDict([   ('CMP', 318.1),
+                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', -100)])),
                 (   'INDICATORS',
-                    OrderedDict([   ('EMA_SIGNAL', False),
-                                    ('ADX_SYSTEM', False),
-                                    ('AROON', False),
-                                    ('RSI', 32.22),
-                                    ('MACD', False),
+                    OrderedDict([   ('EMA_SIGNAL', True),
+                                    ('ADX_SYSTEM', True),
+                                    ('AROON', True),
+                                    ('RSI', 59.77),
+                                    ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('IS_CONSOLIDATING', False),
@@ -159,15 +158,128 @@ OrderedDict([   ('CMP', 625.7),
                 ('SUPERTREND', OrderedDict()),
                 ('TTM_SQUEEZE', OrderedDict())])
 **************************************************************
-stock is :  COALINDIA.NS
-OrderedDict([   ('CMP', 240.35),
-                ('CANDLES', OrderedDict([('CDL3INSIDE', 100)])),
+stock is :  BEML.NS
+OrderedDict([   ('CMP', 2054.3),
+                ('CANDLES', OrderedDict([('CDLENGULFING', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', True),
+                                    ('ADX_SYSTEM', True),
+                                    ('AROON', True),
+                                    ('RSI', 81.33),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                ('SUPERTREND', OrderedDict()),
+                ('TTM_SQUEEZE', OrderedDict())])
+**************************************************************
+stock is :  STAR.NS
+OrderedDict([   ('CMP', 446.0),
+                ('CANDLES', OrderedDict([('CDLENGULFING', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', True),
+                                    ('ADX_SYSTEM', True),
+                                    ('AROON', True),
+                                    ('RSI', 52.33),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                ('SUPERTREND', OrderedDict()),
+                ('TTM_SQUEEZE', OrderedDict())])
+**************************************************************
+stock is :  HEIDELBERG.NS
+OrderedDict([   ('CMP', 181.6),
+                ('CANDLES', OrderedDict([('CDLENGULFING', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', False),
+                                    ('ADX_SYSTEM', False),
+                                    ('AROON', True),
+                                    ('RSI', 61.79),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                ('SUPERTREND', OrderedDict()),
+                ('TTM_SQUEEZE', OrderedDict())])
+**************************************************************
+stock is :  BSE.NS
+OrderedDict([   ('CMP', 837.25),
+                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', True),
+                                    ('ADX_SYSTEM', True),
+                                    ('AROON', True),
+                                    ('RSI', 81.47),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                ('SUPERTREND', OrderedDict()),
+                ('TTM_SQUEEZE', OrderedDict())])
+**************************************************************
+stock is :  ASHOKA.NS
+OrderedDict([   ('CMP', 103.65),
+                ('CANDLES', OrderedDict([('CDLENGULFING', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', True),
+                                    ('ADX_SYSTEM', True),
+                                    ('AROON', True),
+                                    ('RSI', 78.33),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                ('SUPERTREND', OrderedDict()),
+                ('TTM_SQUEEZE', OrderedDict())])
+**************************************************************
+stock is :  MOIL.NS
+OrderedDict([   ('CMP', 187.95),
+                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', True),
+                                    ('ADX_SYSTEM', True),
+                                    ('AROON', True),
+                                    ('RSI', 62.9),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                ('SUPERTREND', OrderedDict()),
+                ('TTM_SQUEEZE', OrderedDict())])
+**************************************************************
+stock is :  ICICIGI.NS
+OrderedDict([   ('CMP', 1358.8),
+                (   'CANDLES',
+                    OrderedDict([('CDLSPINNINGTOP', -100), ('CDLDOJI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', True),
+                                    ('ADX_SYSTEM', True),
+                                    ('AROON', True),
+                                    ('RSI', 54.25),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                ('SUPERTREND', OrderedDict()),
+                ('TTM_SQUEEZE', OrderedDict())])
+**************************************************************
+stock is :  OFSS.NS
+OrderedDict([   ('CMP', 3852.05),
+                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', -100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', True),
                                     ('ADX_SYSTEM', False),
                                     ('AROON', True),
-                                    ('RSI', 67.56),
-                                    ('MACD', False),
+                                    ('RSI', 51.61),
+                                    ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
                 ('IS_CONSOLIDATING', False),
@@ -176,13 +288,14 @@ OrderedDict([   ('CMP', 240.35),
                 ('TTM_SQUEEZE', OrderedDict())])
 **************************************************************
 stock is :  IRB.NS
-OrderedDict([   ('CMP', 25.3),
-                ('CANDLES', OrderedDict([('CDLINVERTEDHAMMER', 100)])),
+OrderedDict([   ('CMP', 25.45),
+                (   'CANDLES',
+                    OrderedDict([('CDLSPINNINGTOP', 100), ('CDLDOJI', 100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', False),
                                     ('ADX_SYSTEM', False),
                                     ('AROON', False),
-                                    ('RSI', 40.05),
+                                    ('RSI', 41.93),
                                     ('MACD', False),
                                     ('BBANDS', True)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
@@ -191,14 +304,14 @@ OrderedDict([   ('CMP', 25.3),
                 ('SUPERTREND', OrderedDict()),
                 ('TTM_SQUEEZE', OrderedDict())])
 **************************************************************
-stock is :  MOIL.NS
-OrderedDict([   ('CMP', 184.05),
-                ('CANDLES', OrderedDict([('CDLENGULFING', -100)])),
+stock is :  BHARATFORG.NS
+OrderedDict([   ('CMP', 905.65),
+                ('CANDLES', OrderedDict([('CDLEVENINGSTAR', -100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', True),
                                     ('ADX_SYSTEM', True),
                                     ('AROON', True),
-                                    ('RSI', 57.36),
+                                    ('RSI', 65.1),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
@@ -207,46 +320,65 @@ OrderedDict([   ('CMP', 184.05),
                 ('SUPERTREND', OrderedDict()),
                 ('TTM_SQUEEZE', OrderedDict())])
 **************************************************************
-stock is :  GSFC.NS
-OrderedDict([   ('CMP', 168.05),
-                ('CANDLES', OrderedDict([('CDL3INSIDE', 100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('EMA_SIGNAL', True),
-                                    ('ADX_SYSTEM', True),
-                                    ('AROON', False),
-                                    ('RSI', 55.15),
-                                    ('MACD', True),
-                                    ('BBANDS', False)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('IS_CONSOLIDATING', False),
-                ('IS_BREAKING_OUT', False),
-                ('SUPERTREND', OrderedDict()),
-                ('TTM_SQUEEZE', OrderedDict())])
-**************************************************************
-stock is :  HEROMOTOCO.NS
-OrderedDict([   ('CMP', 3102.1),
-                ('CANDLES', OrderedDict([('CDLENGULFING', -100)])),
-                (   'INDICATORS',
-                    OrderedDict([   ('EMA_SIGNAL', True),
-                                    ('ADX_SYSTEM', True),
-                                    ('AROON', True),
-                                    ('RSI', 54.51),
-                                    ('MACD', True),
-                                    ('BBANDS', True)])),
-                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
-                ('IS_CONSOLIDATING', False),
-                ('IS_BREAKING_OUT', False),
-                ('SUPERTREND', OrderedDict()),
-                ('TTM_SQUEEZE', OrderedDict())])
-**************************************************************
-stock is :  NMDC.NS
-OrderedDict([   ('CMP', 116.85),
-                ('CANDLES', OrderedDict([('CDLDARKCLOUDCOVER', -100)])),
+stock is :  SUMICHEM.NS
+OrderedDict([   ('CMP', 406.8),
+                (   'CANDLES',
+                    OrderedDict([   ('CDLSPINNINGTOP', -100),
+                                    ('CDLHARAMI', -100)])),
                 (   'INDICATORS',
                     OrderedDict([   ('EMA_SIGNAL', False),
+                                    ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 42.02),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                ('SUPERTREND', OrderedDict()),
+                ('TTM_SQUEEZE', OrderedDict())])
+**************************************************************
+stock is :  EICHERMOT.NS
+OrderedDict([   ('CMP', 3332.7),
+                ('CANDLES', OrderedDict([('CDLENGULFING', -100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', False),
+                                    ('ADX_SYSTEM', False),
+                                    ('AROON', False),
+                                    ('RSI', 45.48),
+                                    ('MACD', False),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                ('SUPERTREND', OrderedDict()),
+                ('TTM_SQUEEZE', OrderedDict())])
+**************************************************************
+stock is :  ABBOTINDIA.NS
+OrderedDict([   ('CMP', 24084.7),
+                ('CANDLES', OrderedDict([('CDLSPINNINGTOP', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', True),
                                     ('ADX_SYSTEM', True),
                                     ('AROON', True),
-                                    ('RSI', 74.21),
+                                    ('RSI', 63.8),
+                                    ('MACD', True),
+                                    ('BBANDS', False)])),
+                ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
+                ('IS_CONSOLIDATING', False),
+                ('IS_BREAKING_OUT', False),
+                ('SUPERTREND', OrderedDict()),
+                ('TTM_SQUEEZE', OrderedDict())])
+**************************************************************
+stock is :  AMBUJACEM.NS
+OrderedDict([   ('CMP', 460.9),
+                (   'CANDLES',
+                    OrderedDict([('CDLSPINNINGTOP', -100), ('CDLDOJI', 100)])),
+                (   'INDICATORS',
+                    OrderedDict([   ('EMA_SIGNAL', True),
+                                    ('ADX_SYSTEM', True),
+                                    ('AROON', True),
+                                    ('RSI', 70.03),
                                     ('MACD', True),
                                     ('BBANDS', False)])),
                 ('VOLUME', OrderedDict([('SMA_SIGNAL', True)])),
