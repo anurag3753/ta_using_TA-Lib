@@ -144,11 +144,17 @@ def parse_webpage(url, output_file):
                     "Exchange",
                     ]
 
-    # Reorder the DataFrame columns based on the desired order
-    df = df[desired_column_order]
+    # Filter the DataFrame based on the condition 'qib' <= 25
+    filtered_df = df[df['qib'] >= 25]
 
-    # Export the DataFrame to an Excel file
-    df.to_excel(output_file, index=False)
+    # Add an additional condition for 'qib' >= 50 when 'Exchange' is "NSE SME" or "BSE SME"
+    filtered_df = filtered_df[filtered_df.apply(lambda row: row['qib'] >= 50 if row['Exchange'] in ["NSE SME", "BSE SME"] else True, axis=1)]
+
+    # Reorder the columns in the filtered DataFrame
+    filtered_df = filtered_df[desired_column_order]
+
+    # Export the filtered DataFrame to an Excel file
+    filtered_df.to_excel(output_file, index=False)
     
 if __name__ == "__main__":
     main()
