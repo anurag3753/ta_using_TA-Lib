@@ -1,9 +1,11 @@
 from quotes import StockReader
 from datetime import datetime
+from utils import moving_average_strategy
 
 class StockAnalyzer:
-    def __init__(self, stock_quotes):
+    def __init__(self, stock_quotes, category="v40"):
         self.stock_quotes = stock_quotes
+        self.category = category
 
     def v20_strategy(self, num_days=10):
         """
@@ -35,6 +37,9 @@ class StockAnalyzer:
         """
         signals = []
 
+        # Create copy to compute dma 200
+        df_copy = df.copy()
+
         # Restrict the analysis to the last 'num_days' days of data
         df = df.tail(num_days)
 
@@ -49,13 +54,21 @@ class StockAnalyzer:
 
                 if highest_high is None or candle["High"] > highest_high:
                     highest_high = candle["High"]
+                    high_date = date # Store the date of the highest high
                 if lowest_low is None or candle["Low"] < lowest_low:
                     lowest_low = candle["Low"]
 
                 # Check if the movement from lowest low to highest high is more than 20%
                 if consecutive_green_candles >= 1 and ((highest_high - lowest_low) / lowest_low) > 0.20:
-                    # Add unique buy and sell signals for the continuous green signal
-                    unique_signals.add((round(lowest_low), round(highest_high)))
+                    if self.category == "v200":
+                        dma_200 = moving_average_strategy(df_copy, 200)
+
+                        if lowest_low < dma_200:
+                            # Add unique buy and sell signals for the continuous green signal
+                            unique_signals.add((round(lowest_low), round(highest_high), high_date))
+                    else:
+                        # Add unique buy and sell signals for the continuous green signal
+                        unique_signals.add((round(lowest_low), round(highest_high), high_date))
 
             else:
                 # Reset counters for red candle
@@ -64,9 +77,12 @@ class StockAnalyzer:
                 lowest_low = None
 
         # Convert unique signals to list of dictionaries
-        for buy, sell in unique_signals:
+        for buy, sell, date in unique_signals:
             expected_gain = round(( sell - buy ) / buy * 100)
-            signals.append({"date": date.date(), "buy": buy, "sell": sell, "expected_gain": expected_gain})
+            signals.append({"date": date, "buy": buy, "sell": sell, "expected_gain": expected_gain})
+
+        # Sort signals by date from highest to lowest
+        signals.sort(key=lambda x: x["date"], reverse=True)
 
         return signals
 
